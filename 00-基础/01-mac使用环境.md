@@ -1,24 +1,34 @@
 # mac使用环境
+
 ## mac 备份恢复
+
 为防止意外，需要对电脑进行定期的备份。
+
 ### 时间机器 备份
+
 https://support.apple.com/zh-cn/HT201250
+
 ### 恢复
+
 https://support.apple.com/zh-cn/HT203981
 
 ## 通用设置和软件推荐
+
 ### App Store 访问加速
+
 为网络添加DNS （偏好设置 > 网络 > Wi-Fi> 高级 > DNS ）
 - 208.67.222.222
 - 208.67.220.220
 - 114.114.114.114
 
 ### .DS_store
+
 Mac下面压缩的时候总会自动生成 .DS_store 文件，用户可以自行选择是否需要生成，执行下面命令之后需要重启Mac生效。
 
 - 禁止 .DS_store生成：
 
 ```
+
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 ```
 
@@ -29,26 +39,31 @@ defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 ```
 
 ### 安装软件可能遇到的问题
+
 - 系统偏好设置-安全性与隐私-Mac允许从任何来源-通用-允许从以下位置下载的应用，"任何来源"这个选项默认已经不显示了需要打开终端app,然后输入以下内容，按回车键执行
 ```
 sudo spctl --master-disable
 ```
 
 ### 输入法
+
 - [搜狗输入法](https://pinyin.sogou.com/mac/)
 - [百度输入法](https://srf.baidu.com/input/mac.html)
 
 ### 邮箱
+
 - [Foxmail](https://www.foxmail.com/)
 - [Airmail](https://airmailapp.com/)
 
 ### 通讯
+
 - [微信](https://weixin.qq.com/cgi-bin/readtemplate?t=mac)
 - [钉钉](https://tms.dingtalk.com/markets/dingtalk/download)
 - [QQ](https://im.qq.com/macqq/)
 - [Telegram](https://telegram.org/) 电报，私密安全的聊天工具，类似微信
 
 ### 办公软件，笔记, 思维导图、团队协作
+
 - Microsoft office for Mac 2019
 - pages文稿
 - Numbers表格
@@ -66,10 +81,12 @@ sudo spctl --master-disable
 - [Mou](http://25.io/mou/) Markdown编辑器
 
 ### PDF
+
 - [PDF Expert](https://pdfexpert.com/) PDF阅读器
 - [Adobe Acrobat Pro](https://acrobat.adobe.com/cn/zh-Hans/acrobat.html) PDF阅读器
 
 ### 下载工具
+
 - [迅雷](http://mac.xunlei.com/)
 - [proxyee down](https://github.com/proxyee-down-org/proxyee-down) 下载百度云
 - [Folx](https://mac.eltima.com/download-manager.html) BT下载工具
@@ -78,21 +95,25 @@ sudo spctl --master-disable
 - [motrix](https://motrix.app/) 支持下载 HTTP、FTP、BT、磁力链、百度网盘等资源
 
 ### 网盘
+
 - [百度网盘](https://pan.baidu.com/download#pan)
 - [腾讯微云](https://www.weiyun.com/download.html)
 
 
 ### 解压
+
 - [The Unarchiver](https://theunarchiver.com/)
 - [better zip](https://www.betterzip.net/)
 
 ### 截图,图片管理
+
 - [jietu截图](https://jietu.qq.com/) 腾讯出品的截图软件
 - [智图](https://zhitu.isux.us/index.php/preview/download)  png jpg图片压缩
 - [看图](https://kantu.qq.com/) 腾讯出品优质图片查找工具
 
 
 ### 音乐、视频
+
 - [网易云音乐](https://music.163.com/)
 - [虾米音乐](https://www.xiami.com/apps/mobile)
 - [QQ音乐](https://y.qq.com/download/mac.html?part=1&ADTAG=YQQ)
@@ -104,48 +125,59 @@ sudo spctl --master-disable
 - [爱奇艺](http://app.iqiyi.com/mac/player/index.html)
 
 ### 移动硬盘读取
+
 - [NTFS For Mac](http://www.ntfsformac.cn/xiazai.html)
 - [Mountry for NTFS](https://mounty.app/)
 
 ### 系统清理
+
 - [Clean My Mac](https://macpaw.com/cleanmymac) 文件清理，卸载软件
 - [腾讯柠檬清理](https://mac.gj.qq.com/)
 - [MacBooster](https://www.macbooster.net/)
 - [ccleaner](https://www.ccleaner.com/ccleaner/download?mac)
 
 ### 词典
+
 - [欧路词典](https://www.eudic.net/v4/en/app/eudic)
 - [有道词典](http://cidian.youdao.com/index-mac.html)
 
 ### 密码管理
+
 - [1password](https://1password.com/tour/) 密码管理
 
 ### 浏览器
+
 - [Chrome](https://www.google.cn/chrome/)
 - [Chrome Canary](https://www.google.cn/intl/zh-CN/chrome/canary/) 金丝雀版本 每日构建版，能够尝试Chrome最新的特性
 - [Firefox](http://www.firefox.com.cn/)
 - [Safari](https://www.apple.com/cn/safari/)
 - [Opera](https://www.opera.com/zh-cn)
 - [QQ浏览器](https://browser.qq.com/mac/)
-- [Blisk](https://blisk.io/) 
+- [Blisk](https://blisk.io/)
 
 ### 管理iPhone
+
 - [imazing](https://imazing.com/)
 - [iTools Pro](https://pro.itools.cn/pro_mac/)
 - itunes
+
 ### 管理Android手机
+
 - [Android File Transfer](http://www.android.com/filetransfer/)
 
 ### 远程连接
+
 - [jump desktop](https://jumpdesktop.com/) 
 - [TeamViewer](https://www.teamviewer.com/cn/) 远程协助，在线会议
 
 ### 虚拟机
+
 - [VMware Fusion](https://www.vmware.com/cn/products/fusion/fusion-evaluation.html)
 - [Parallels desktop](https://www.parallels.com/cn/)
 - [CrossOver](https://www.codeweavers.com/products) Mac按照windows应用，支持部分软件
 
 ### 系统其他
+
 - [Alfred3](https://www.alfredapp.com/powerpack/) 提高效率，装机必备
 - [Paste](https://pasteapp.me/) 剪贴板历史
 - [Cheatsheet](https://www.mediaatelier.com/CheatSheet/) 快捷键查看
@@ -158,6 +190,7 @@ sudo spctl --master-disable
 - [Room Arranger](http://www.roomarranger.com/)  3D 房间/公寓/楼 室内设计
 
 ## 设计
+
 - [Axure RP](https://www.axure.com/)
 - [墨刀](https://modao.cc/)
 - [sketch](https://www.sketchapp.com/)
@@ -170,14 +203,17 @@ sudo spctl --master-disable
 ## 开发必备
 
 ### 包管理器
+
 - [Homebrew](https://brew.sh/index_zh-cn)
 - [Cakebrew](https://www.cakebrew.com/) Homebrew客户端
 
 ### 终端
+
 - [iTerm2](https://www.iterm2.com/) 命令行工具
 - [Oh My zsh](https://ohmyz.sh/)
 
 ### FTP
+
 - [Transmit](https://www.panic.com/transmit/)
 - [FileZilla](https://note.youdao.com/)
 - [cyberduck](https://cyberduck.io/)
@@ -185,6 +221,7 @@ sudo spctl --master-disable
 
 
 ### SVN Git
+
 - [Github Desktop](https://desktop.github.com/)
 - [Tower](https://www.git-tower.com/) git client
 - [Fork](https://git-fork.com/) git client
@@ -193,11 +230,13 @@ sudo spctl --master-disable
 - [Versions](https://versionsapp.com/)
 
 ### 网络、调试
+
 - [postman](https://www.getpostman.com/)接口调试
 - [Charles](https://www.charlesproxy.com/)
 - [CocoaRestClient](http://macappstore.org/cocoarestclient/) 
 
 ### 数据库
+
 - [Navicat Premium](https://www.navicat.com.cn/download/navicat-premium)
 - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) MySQL官方数据库管理软件
 - [Redis Desktop Manager](https://redisdesktop.com/) redis操作
@@ -206,10 +245,12 @@ sudo spctl --master-disable
 - [Robo 3T](https://robomongo.org/) MongoDB 数据库管理
 
 ### Docker
+
 - [Docker](https://www.docker.com/)
 
 
 ### 编辑器、IDE、开发工具
+
 - [VS code](https://code.visualstudio.com/) 微软开发的编辑器
 - [Sublime text3](http://www.sublimetext.com/)
 - [Atom](https://atom.io/) Github开发
@@ -228,4 +269,5 @@ sudo spctl --master-disable
 - [SnippetsLab](http://www.renfei.org/snippets-lab/) 代码片段管理
 
 ### 其他
+
 - [Dash](https://kapeli.com/dash) api聚合
