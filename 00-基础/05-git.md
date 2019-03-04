@@ -1,1 +1,25 @@
 # git
+
+## 图形化客户端
+
+- [Github Desktop](https://desktop.github.com/)
+- [Tower](https://www.git-tower.com/) git client
+- [Fork](https://git-fork.com/) git client
+- [SourceTree](https://www.sourcetreeapp.com/)
+
+## 代码托管
+
+- [Github](https://github.com/)
+- [GitLab](https://about.gitlab.com/)
+- [码云Gitee](https://gitee.com/)
+- [Coding](https://dev.tencent.com/) 已经升级为腾讯云开发者平台
+- [bitbucket](https://bitbucket.org/)
+
+## git其他
+
+- [git.io](https://git.io/) github短网址服务
+
+## git书籍
+
+- [《Pro git》](https://git-scm.com/book/zh/v2)
+- [《GotGit》](http://www.worldhello.net/gotgithub/)

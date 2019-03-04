@@ -219,7 +219,6 @@ sudo spctl --master-disable
 - [cyberduck](https://cyberduck.io/)
 - [ExpanDrive](https://www.expandrive.com/)
 
-
 ### SVN Git
 
 - [Github Desktop](https://desktop.github.com/)
@@ -247,7 +246,6 @@ sudo spctl --master-disable
 ### Docker
 
 - [Docker](https://www.docker.com/)
-
 
 ### 编辑器、IDE、开发工具
 

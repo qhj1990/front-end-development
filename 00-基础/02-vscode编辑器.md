@@ -14,7 +14,7 @@
 
 ## VS Code 语言包
 
-- [Chinese (Simplified) Language Pack for Visual Studio Code]() 若不习惯 VS Code的英文界面，可以安装此插件
+- [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 若不习惯 VS Code的英文界面，可以安装此插件
 
 ## VS Code主题 外观
 
@@ -24,30 +24,43 @@
 
 ## JavaScript
 
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Document This](https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-explorer) js，ts自动生成注释
 - [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) ES6代码片段
 - [StandardJS - JavaScript Standard Style](https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs) js standard规范
 - [JavaScript standardjs styled snippets](https://marketplace.visualstudio.com/items?itemName=capaj.vscode-standardjs-snippets)
+- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode) 实时计算js 变量
 
-## Vue Angular React 相关，语法提示
+## TypeScript
+
+- [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+
+## Vue
 
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) Vue语法高亮，提示，错误检查，代码片段，自动填充，调试
 - [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets)
-- [Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
-- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
-- [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode) Bootstrap代码片段，快速输入
-- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) 
-- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) 代码美化
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) React 代码片段
+
+## React
+
 - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native)
 - [React-Native/React/Redux snippets for es6/es7](https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux)
 - [React/Redux/react-router Snippets](https://marketplace.visualstudio.com/items?itemName=discountry.react-redux-react-router-snippets)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets) React 代码片段
+
+## Angular
+
+- [Angular 7 Snippets - TypeScript, Html, Angular Material, ngRx, RxJS & Flex Layout](https://marketplace.visualstudio.com/items?itemName=Mikael.Angular-BeastCode)
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+- [Angular v7 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
 
 ## Css 样式相关
 
+- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion) 在html中class属性智能提示
 - [Sass](https://marketplace.visualstudio.com/items?itemName=robinbentley.sass-indented)
-- [css peck]() html中的标签的class 和 id快速链接到css文件中的样式
+- [Sass Formatter](https://marketplace.visualstudio.com/items?itemName=sasa.vscode-sass-format) 美化Sass Scss Css文件
+- [css peck](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) html中的标签的class 和 id快速链接到css文件中的样式
+- [language-stylus](https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus) 语法高亮，复杂选择器，颜色预览 
 
 ## Git SVN 版本管理
 
@@ -74,10 +87,12 @@
 - [eggjs](https://marketplace.visualstudio.com/items?itemName=atian25.eggjs)
 - [expressjs](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Nunjucks](https://marketplace.visualstudio.com/items?itemName=ronnidc.nunjucks)
+- [Node.js REPL](https://marketplace.visualstudio.com/items?itemName=lostfields.nodejs-repl)
 
 ## Markdown
-- [Markdown All in One]() markdown快捷输入，预览，转化成html
-- [markdownlint]() markdown语法检测
+
+- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) markdown快捷输入，预览，转化成html
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) markdown语法检测
 
 ## Java
 
@@ -100,6 +115,7 @@
 
 ## 其他
 
+- [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint) HTML格式检测
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) 自动改变整对标签的名称
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 自动增加闭合标签，html handlebars 系统内置。XML PHP Vue Javascript TypeScript JSX
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) 自动填充地址和文件名
@@ -108,19 +124,27 @@
 - [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color) 选择颜色
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 执行代码片段
 - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)  todo语法高亮
-- [Document This](https://marketplace.visualstudio.com/items?itemName=formulahendry.docker-explorer) js，ts自动生成注释
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
 - [Gulp Snippets](https://marketplace.visualstudio.com/items?itemName=tanato.vscode-gulp)
-- [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode) 实时计算js
 - [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) 计算导入的包的大小
 - [nginx.conf](https://marketplace.visualstudio.com/items?itemName=shanoor.vscode-nginx)
 - [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 发送http请求查看response
-- [Flow-Language-Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode) 
-- [color highlight]()
+- [Flow-Language-Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode)
+- [color highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 - [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) 鼠标放在路径中即可显示图片
+- [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) .env文件语法高亮
+- [vscode-pdf](https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf) 在vscode中查看pdf
+- [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml) xml格式化，预览提示，校验，
+- [Visual Studio IntelliCode - Preview](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode) Bootstrap代码片段，快速输入
+- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+- [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) 代码美化
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [PowerShell](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
-## 这么多扩展，换台电脑怎么办
+## 这么多扩展，换台电脑如何同步
 
-- [Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) 
+- [Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 将本机vscode配置同步到服务器，其他电脑上的vscode编辑器也可以下载这个配置，达到同步配置的效果
