@@ -31,8 +31,8 @@ gulp
 ```
 默认会执行default任务
 
-
 ## gulp API
+
 - src() 读取文件
 - dest() 写入文件
 - symlink()
@@ -64,8 +64,6 @@ gulp
 
 ### 日志
 * [gulp-notify](https://github.com/mikaelbr/gulp-notify)
-
-
 
 
 * gulp-uglify  压缩

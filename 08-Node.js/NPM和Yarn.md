@@ -10,6 +10,11 @@
 
 ## NPM
 
+### 常用网站
+
+* [npm中文网](https://www.npmjs.cn/)
+* 
+
 ### NPM 模块管理器
 
 npm 不需要安装，在安装Node.js时候会同时安装npm
@@ -122,6 +127,7 @@ npm info [package name]
 ### yarn 资料
 
 - [官网](https://yarnpkg.com/zh-Hans/docs)
+- [yarn中文网](https://yarn.bootcss.com/)
 
 ### yarn介绍
 
@@ -133,22 +139,26 @@ yarn安装速度快
 
 ### 安装Yarn
 
-```brew install yarn
+```
+brew install yarn
 ```
 
 ### 升级Yarn
 
-```brew upgrade yarn
+```
+brew upgrade yarn
 ```
 
 ### Yarn 版本
 
-```yarn --version
+```
+yarn --version
 ```
 
 ### 初始化项目
 
-```yarn init
+```
+yarn init
 ```
 
 ### 添加依赖包
