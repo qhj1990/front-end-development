@@ -1,6 +1,8 @@
 # npm常用包
 
-## nvm
+## 使用nvm管理多个版本Node
+
+一台电脑上维护多个版本的Node
 
 ## web框架
 
@@ -16,9 +18,9 @@
 - [LookBack](https://loopback.io/)
 - [adonisjs](https://adonisjs.com/)
 - [thinkjs](https://github.com/thinkjs/thinkjs) 基于koa
-- [mean](http://mean.io/) Angular全栈框架
-- [NERN]() MongoDb,Express, React,
-- [meteor](https://github.com/meteor/meteor)
+- [mean](http://mean.io/) Angular全栈框架MongoDb,Express, Angular.js, Node.js
+- [MERN](http://mern.io/) MongoDb,Exress,React,Node.js
+- [meteor](https://www.meteor.com/)
 
 ## 数据库driver
 
@@ -31,7 +33,7 @@
 ## orm odm
 
 - [mongoose](https://github.com/Automattic/mongoose)
-- [connect-redis]() redis session store
+- [connect-redis](https://github.com/tj/connect-redis) redis session store
 - [sequelize](https://github.com/sequelize/sequelize)
 - [typeorm](https://typeorm.io/)
 - [waterline](http://waterlinejs.org/)
@@ -51,7 +53,6 @@
 
 - [nodemon](http://nodemon.io/) 代码改变时，node应用自动更新
 - [pm2](https://github.com/Unitech/pm2) [官网](http://pm2.keymetrics.io/)
-- [oneapm]()   性能监控
 
 ## 网络请求
 
@@ -63,12 +64,12 @@
 
 ## Excel操作
 
-- [node-xlsx]() 操作excel
+- [node-xlsx](https://github.com/mgcrea/node-xlsx) 操作excel
 - [excel-export]() 生成excel
 
 ## 安全
 
-- [helmet]()
+- [helmet](https://github.com/helmetjs/helmet)
 - [xss]()
 
 ## 推送
@@ -90,7 +91,7 @@
 - [timeago](https://github.com/hustcc/timeago) xxx 时间前、xxx 时间后
 - [node-uuid](https://github.com/kelektiv/node-uuid)  生成唯一标识符uuid
 - [七牛存储](https://github.com/node-modules/qn) [文档](http://docs.qiniu.com/api/)  七牛存储
-- [cheerio]()  像jQuery
+- [cheerio](https://github.com/cheeriojs/cheerio)  像jQuery
 
 ## 终端着色
 
@@ -99,14 +100,15 @@
 ## 邮件
 
 - [nodemailer](https://github.com/nodemailer/nodemailer)
-- [nodemailer-smtp-transport]() 邮件开启smtp服务
-- [nodemailer-markdown]() 发送md格式的邮件
+- [email-tempaltes](https://email-templates.js.org)
+- [nodemailer-smtp-transport](https://github.com/nodemailer/nodemailer-smtp-transport) 邮件开启smtp服务
+- [nodemailer-markdown](https://github.com/andris9/nodemailer-markdown) 发送md格式的邮件
 
 ## 测试
 
-- [istanbul]()
-- [mocha]()
-- [should]()
+- [istanbul](https://github.com/gotwarlost/istanbul) 测试代码覆盖率
+- [mocha](https://github.com/mochajs/mocha)
+- [should](https://github.com/shouldjs/should.js) BDD风格断言
 
 ## 模板template
 
@@ -118,7 +120,7 @@
 
 ## 文档
 
-- jsDoc
+- [jsDoc](https://github.com/jsdoc3/jsdoc) API文档生成器
 
 ## 定时任务
 

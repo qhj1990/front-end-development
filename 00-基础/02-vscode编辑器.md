@@ -1,5 +1,14 @@
 # vscode编辑器
 
+<details>
+<summary>目录</summary>
+
+* [`插件安装`](##插件安装)
+* [`语言包`](##语言包)
+* [`主题`](##主题)
+
+</details>
+
 ## 为什么使用VS Code
 
 - 开源，免费
@@ -7,16 +16,16 @@
 - 插件丰富，安装方便
 - 好用, 用的人多
 
-## VS Code插件安装
+## 插件安装
 
 直接快捷键 control + shift + x （windows）, command + shift + x (Mac) 下，调出应用商店。
 在应用商店中搜索相关插件名字，点击安装，重启编辑器，即可使用。
 
-## VS Code 语言包
+## 语言包
 
 - [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans) 若不习惯 VS Code的英文界面，可以安装此插件
 
-## VS Code主题 外观
+## 主题
 
 - [vscode-icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -39,6 +48,7 @@
 
 - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) Vue语法高亮，提示，错误检查，代码片段，自动填充，调试
 - [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets)
+- [Ant Design Vue helper](https://marketplace.visualstudio.com/items?itemName=ant-design-vue.vscode-ant-design-vue-helper) Ant Design Vue
 
 ## React
 

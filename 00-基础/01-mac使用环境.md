@@ -1,6 +1,16 @@
 # mac使用环境
 
-## mac 备份恢复
+<details>
+
+<summary>目录</summary>
+
+* [`mac备份恢复`](##mac备份恢复)
+* [`通用设置`](##通用设置)
+* [`软件推荐`](##软件推荐)
+
+</details>
+
+## mac备份恢复
 
 为防止意外，需要对电脑进行定期的备份。
 
@@ -12,11 +22,12 @@ https://support.apple.com/zh-cn/HT201250
 
 https://support.apple.com/zh-cn/HT203981
 
-## 通用设置和软件推荐
+## 通用设置
 
 ### App Store 访问加速
 
 为网络添加DNS （偏好设置 > 网络 > Wi-Fi> 高级 > DNS ）
+
 - 208.67.222.222
 - 208.67.220.220
 - 114.114.114.114
@@ -38,9 +49,12 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
 defaults delete com.apple.desktopservices DSDontWriteNetworkStores
 ```
 
+## 软件推荐
+
 ### 安装软件可能遇到的问题
 
 - 系统偏好设置-安全性与隐私-Mac允许从任何来源-通用-允许从以下位置下载的应用，"任何来源"这个选项默认已经不显示了需要打开终端app,然后输入以下内容，按回车键执行
+
 ```
 sudo spctl --master-disable
 ```
@@ -99,7 +113,6 @@ sudo spctl --master-disable
 - [百度网盘](https://pan.baidu.com/download#pan)
 - [腾讯微云](https://www.weiyun.com/download.html)
 
-
 ### 解压
 
 - [The Unarchiver](https://theunarchiver.com/)
@@ -110,7 +123,6 @@ sudo spctl --master-disable
 - [jietu截图](https://jietu.qq.com/) 腾讯出品的截图软件
 - [智图](https://zhitu.isux.us/index.php/preview/download)  png jpg图片压缩
 - [看图](https://kantu.qq.com/) 腾讯出品优质图片查找工具
-
 
 ### 音乐、视频
 
@@ -160,6 +172,7 @@ sudo spctl --master-disable
 - [imazing](https://imazing.com/)
 - [iTools Pro](https://pro.itools.cn/pro_mac/)
 - itunes
+- [AirServer](https://www.airserver.com/) iPhone 投屏到mac电脑上
 
 ### 管理Android手机
 
