@@ -11,7 +11,7 @@
 - [Vue.js技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
 - [Vue技术内幕](http://hcysun.me/vue-design/art/)
 
-## UI
+## 框架
 
 - [quasar](https://github.com/quasarframework/quasar)
 - [buefy](https://github.com/buefy/buefy) vue + bulma 轻量的
@@ -53,6 +53,11 @@
 
 - [vuepress](https://github.com/vuejs/vuepress)
 - [gridsome](https://github.com/gridsome/gridsome)
+- [docsify](https://github.com/docsifyjs/docsify) 文档生成器
+
+### wiki
+
+- [outline](https://github.com/outline/outline) wiki和知识管理
 
 ## Vue组件
 
@@ -71,11 +76,19 @@
 
 - [vuetable-2](https://github.com/ratiw/vuetable-2)
 - [vue-tables-2](https://github.com/matfish2/vue-tables-2)
-- [vue-easytable](https://github.com/huangshuwei/vue-easytable) 
+- [vue-easytable](https://github.com/huangshuwei/vue-easytable)
 
 ### 轮播图
 
 - [Vue-Awesome-Swipe](https://surmon-china.github.io/vue-awesome-swiper/) 轮播图基本满足所有需求
+
+### 下拉选择
+
+- [vue-multiselect](https://github.com/shentao/vue-multiselect) 下拉选择，可多选
+
+### 拖拽组件
+
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) 
 
 ### 地图
 
@@ -95,6 +108,7 @@
 ### 校验
 
 - [vuelidate](https://github.com/vuelidate/vuelidate)
+- [vee-validate](https://github.com/baianat/vee-validate)
 
 ### 语言国际化
 
@@ -109,6 +123,10 @@
 - [vuepack](https://github.com/egoist/vuepack)
 - [electron-vue](https://github.com/SimulatedGREG/electron-vue)
 
+## 小程序
+
+- [mpvue](https://github.com/Meituan-Dianping/mpvue) 基于vue.js的小程序开发框架
+
 ## 状态管理
 
 - [vuex](https://github.com/vuejs/vuex)
@@ -119,6 +137,8 @@
 
 - [vue-router](https://github.com/vuejs/vue-router)
 
-## Vue示例
+## Vue示例项目
+
+- [vue2-elm](https://github.com/bailicangdu/vue2-elm) 饿了么 单页面应用
 
 ## Vue教程

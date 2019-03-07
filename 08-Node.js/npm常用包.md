@@ -125,3 +125,4 @@
 ## 定时任务
 
 - [node-schedule](https://github.com/node-schedule/node-schedule) Node定时任务
+- [node-cron](https://github.com/kelektiv/node-cron) Node计划任务

@@ -1,6 +1,5 @@
 const {src, dest, task, watch } = require('gulp');
 
-
 const notify = require('gulp-notify'); // 通知提醒
 
 const rename = require('gulp-rename'); // 重命名
