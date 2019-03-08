@@ -33,3 +33,14 @@
 
 - [《Pro git》](https://git-scm.com/book/zh/v2)
 - [《GotGit》](http://www.worldhello.net/gotgithub/)
+
+## git使用
+
+### 安装git
+
+在[git官网](https://git-scm.com/downloads) 下载适合自己系统的版本，并安装
+
+```
+// 使用一下命令，验证是否安装完成
+git version
+```

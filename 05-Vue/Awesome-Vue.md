@@ -25,8 +25,10 @@
 - [Muse-UI](https://muse-ui.org/#/zh-CN) 基于Vue 2.0优雅的Material Design UI组件库
 - [vue-material](https://vuematerial.io/)
 - [bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)  Bootstrap4组件
+- [vue-beauty](https://github.com/FE-Driver/vue-beauty) 基于ant design样式优化
 - [at uikit](https://at-ui.github.io/at-ui/#/zh) 凹凸实验室
 - [vuesax](https://github.com/lusaxweb/vuesax)
+- [NutUI](https://nutui.jd.com/#/index) 京东风格的轻量级移动端Vue组件库
 
 ### mobile UI
 
@@ -71,6 +73,7 @@
 - [vue-echarts](https://github.com/ecomfe/vue-echarts) ECharts组件
 - [v-charts](https://github.com/ElemeFE/v-charts) 饿了么封装的Echarts图表组件
 - [vue-highcharts](https://github.com/weizhenye/vue-highcharts) highcharts
+- [vue-echarts-v3](https://github.com/xlsdg/vue-echarts-v3) Echarts.js v3.x+
 
 ### 表格
 
@@ -85,16 +88,31 @@
 ### 下拉选择
 
 - [vue-multiselect](https://github.com/shentao/vue-multiselect) 下拉选择，可多选
+- [vue-select](https://github.com/sagalbot/vue-select) 支持单选多选，ajax，搜索
 
 ### 拖拽组件
 
-- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) 
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+
+### 视频
+
+- [vue-video-player](https://github.com/surmon-china/vue-video-player) 适用于 Vue 的 video.js 播放器组件。
+
+### 图片
+
+- [vue-core-image-upload](https://github.com/Vanthink-UED/vue-core-image-upload) 修建图片，上传
 
 ### 地图
 
 - [Vue Baidu Map](https://dafrok.github.io/vue-baidu-map/#/zh/index) 百度地图
 - [vue-amap](https://elemefe.github.io/vue-amap) 高德地图
 - [vue-google-maps](https://github.com/xkjyeah/vue-google-maps) google 地图
+
+### 富文本编辑器
+
+- [vue-ueditor-wrap](https://github.com/HaoChuan9421/vue-ueditor-wrap) UEditor编辑器
+- [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) 基于 Quill、适用于 Vue 的富文本编辑器，支持服务端渲染和单页应用。
+- [vue-codemirror](https://github.com/surmon-china/vue-codemirror) 基于codemirror的web代码编辑器
 
 - [vue-pdf](https://github.com/FranckFreiburger/vue-pdf) pdf显示
 - [vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js) fullpage全屏滚动组件
@@ -103,7 +121,7 @@
 - [vue-3d-model](https://github.com/hujiulong/vue-3d-model) 3D
 - [vue-toasted](https://github.com/shakee93/vue-toasted) 提醒组件
 - [vue-progressbar](https://github.com/hilongjw/vue-progressbar) 轻量的进度条
-- [vue-ueditor-wrap](https://github.com/HaoChuan9421/vue-ueditor-wrap) UEditor编辑器
+
 
 ### 校验
 
