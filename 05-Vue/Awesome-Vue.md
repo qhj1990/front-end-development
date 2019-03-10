@@ -45,6 +45,7 @@
 - [element admin](https://github.com/PanJiaChen/vue-element-admin)
 - [iview admin](https://github.com/iview/iview-admin)
 - [d2-admin](https://github.com/d2-projects/d2-admin)
+- [vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 响应式管理系统，Bootstrap4
 
 ### 服务器渲染
 

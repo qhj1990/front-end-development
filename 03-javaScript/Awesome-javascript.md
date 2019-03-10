@@ -10,5 +10,6 @@
 * [JavaScript高级程序设计3]
 * [JavaScript权威指南]
 * [你不知道的JavaScript]()
+* [Javascript Promise迷你书](http://liubin.org/promises-book/) 中文版
 * [ECMAScript6 入门](http://es6.ruanyifeng.com/) 阮一峰
 * [《Understanding ECMAScript 6》](https://sagittarius-rev.gitbooks.io/understanding-ecmascript-6-zh-ver/content/)
