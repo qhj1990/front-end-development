@@ -1,3 +1,7 @@
+# CDN
+
+内容分发网络（Content Delivery Network）。用户向您的某一业务内容发起请求时，请求会被调度至最接近用户的服务节点，直接由服务节点快速响应，有效降低用户访问延迟，提升可用性
+
 ## 免费CDN
 
 - [cdnjs](https://cdnjs.com/)
@@ -7,3 +11,8 @@
 - [BootCDN](https://www.bootcdn.cn/)
 - [75CDN](https://cdn.baomitu.com/)
 - [Staticfile CDN](http://staticfile.org/)
+
+### CDN部署
+
+- 阿里云
+- 腾讯云

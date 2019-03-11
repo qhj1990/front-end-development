@@ -70,6 +70,10 @@
 ### react 替代方案
 
 * [preact](https://github.com/developit/preact) 快速轻量的React替代方案，具有ES6 API，组件化
+* [inferno](https://github.com/infernojs/inferno)
+* [nerv](https://github.com/NervJS/nerv) 兼容IE8 and React 16.  京东出品
+* [rax](https://github.com/alibaba/rax) 阿里巴巴出品
+* [anu.js](https://github.com/RubyLouvre/anu) react16 兼容,去哪儿网
 
 ### 服务器端渲染
 
