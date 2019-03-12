@@ -123,7 +123,6 @@
 - [vue-toasted](https://github.com/shakee93/vue-toasted) 提醒组件
 - [vue-progressbar](https://github.com/hilongjw/vue-progressbar) 轻量的进度条
 
-
 ### 校验
 
 - [vuelidate](https://github.com/vuelidate/vuelidate)
