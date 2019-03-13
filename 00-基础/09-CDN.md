@@ -2,7 +2,9 @@
 
 内容分发网络（Content Delivery Network）。用户向您的某一业务内容发起请求时，请求会被调度至最接近用户的服务节点，直接由服务节点快速响应，有效降低用户访问延迟，提升可用性
 
-## 免费CDN
+## 常用CDN
+
+### 免费CDN
 
 - [cdnjs](https://cdnjs.com/)
 - [JSDELIVR](https://www.jsdelivr.com/)
@@ -16,3 +18,10 @@
 
 - 阿里云
 - 腾讯云
+- 百度云
+- 亚马逊云
+- 谷歌云
+
+## CDN延时对比w
+
+- [https://www.cdnperf.com/](https://www.cdnperf.com/)

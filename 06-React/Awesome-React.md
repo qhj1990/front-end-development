@@ -12,7 +12,9 @@
 ### react
 
 * [React官网](https://reactjs.org/)
+* [React Github](https://github.com/facebook/react)
 * [React中文](https://zh-hans.reactjs.org/)
+* [awesome react](https://github.com/enaqx/awesome-react)
 
 ### UI
 
@@ -20,12 +22,11 @@
 * [material-ui](http://www.material-ui.com/#/)
 * [react-bootstrap](http://react-bootstrap.github.io/)
 * [Zent](https://github.com/youzan/zent) 是有赞 PC 端 WebUI 规范的 React 实现
-* [Amaze UI](http://amazeui.org/react/components/)
 * [blue-print](https://github.com/palantir/blueprint)
 * [react-toolbox](https://github.com/react-toolbox/react-toolbox/) Google Material Design 风格
 * [buefy](https://github.com/buefy/buefy/) 基于Bulma的轻量级UI组件
-* [nerv](https://github.com/NervJS/nerv) 京东凹凸是演出退出基于Virtual DOM的类React组件框架 IE8 React16
-  
+* [Amaze UI](http://amazeui.org/react/components/)
+
 ### table
 
 * [fixed-data-table](http://facebook.github.io/fixed-data-table/example-object-data.html)  可拖动列，冻结列，多表头，客户端筛选，客户端排序，流动列宽
@@ -45,6 +46,7 @@
 
 * [recharts](https://github.com/recharts/recharts) D3图表
 * [v3](https://github.com/hshoff/vx) D3
+* [react-stockcharts](https://github.com/rrag/react-stockcharts) 用react和D3开发的股票图
 
 ### 颜色选择器
 
@@ -54,9 +56,14 @@
 
 * [draft-js](https://github.com/facebook/draft-js) Facebook推出的富文本编辑器的解决方案，原型，支持深度定制
 
+### pdf
+
+* [react-pdf](https://github.com/wojtekmaj/react-pdf) react
+组件展示pdf， 使用mozilla的pdf.js
+
 ### 动画
 
-* [react-motion](https://github.com/chenglou/react-motion) 
+* [react-motion](https://github.com/chenglou/react-motion)
 
 ### 路由
 
@@ -71,7 +78,7 @@
 
 * [preact](https://github.com/developit/preact) 快速轻量的React替代方案，具有ES6 API，组件化
 * [inferno](https://github.com/infernojs/inferno)
-* [nerv](https://github.com/NervJS/nerv) 兼容IE8 and React 16.  京东出品
+* [nerv](https://github.com/NervJS/nerv) 京东凹凸是演出退出基于Virtual DOM的类React组件框架 IE8 React16
 * [rax](https://github.com/alibaba/rax) 阿里巴巴出品
 * [anu.js](https://github.com/RubyLouvre/anu) react16 兼容,去哪儿网
 

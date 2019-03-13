@@ -14,7 +14,7 @@
 ## 框架
 
 - [quasar](https://github.com/quasarframework/quasar)
-- [buefy](https://github.com/buefy/buefy) vue + bulma 轻量的
+
 
 ### web UI
 
@@ -24,11 +24,11 @@
 - [Vuetify](https://vuetifyjs.com/zh-Hans/) Vue 和 Material Design
 - [Muse-UI](https://muse-ui.org/#/zh-CN) 基于Vue 2.0优雅的Material Design UI组件库
 - [vue-material](https://vuematerial.io/)
+- [buefy](https://github.com/buefy/buefy) vue + bulma 轻量的
 - [bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)  Bootstrap4组件
 - [vue-beauty](https://github.com/FE-Driver/vue-beauty) 基于ant design样式优化
 - [at uikit](https://at-ui.github.io/at-ui/#/zh) 凹凸实验室
 - [vuesax](https://github.com/lusaxweb/vuesax)
-- [NutUI](https://nutui.jd.com/#/index) 京东风格的轻量级移动端Vue组件库
 
 ### mobile UI
 
@@ -39,6 +39,7 @@
 - [cube-ui](https://didi.github.io/cube-ui/#/zh-CN) 滴滴出品
 - [vue-onsenui](https://onsen.io/v2/guide/vue/)
 - [vue-framework7](https://github.com/framework7io/framework7)
+- [NutUI](https://nutui.jd.com/#/index) 京东风格的轻量级移动端Vue组件库
 
 ### Boilerplate后台管理模板
 
