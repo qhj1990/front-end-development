@@ -42,6 +42,10 @@
 
 * [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) 可拖拽树
 
+## 拖拽
+
+* [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 漂亮,可移植性 列表拖拽库
+
 ### 图表
 
 * [recharts](https://github.com/recharts/recharts) D3图表
