@@ -3,7 +3,7 @@
 <details>
 <summary>目录</summary>
 
-* [`eact资源`](##eact资源)
+* [`eact资源`](##react资源)
 
 </details>
 
