@@ -76,7 +76,7 @@ componentWillUnmount()
 
 #### render()
 
-#### getSanpshotBeforeUpdate(prevProps, prevState)
+#### getSnapshotBeforeUpdate(prevProps, prevState)
 
 #### componentDidUpdate()
 

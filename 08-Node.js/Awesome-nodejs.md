@@ -25,18 +25,20 @@
 ## 数据库driver
 
 - [mysql](https://github.com/mysqljs/mysql)
-- [mssql]()
+- [mssql](https://github.com/tediousjs/node-mssql)
 - [mongodb](https://github.com/mongodb/node-mongodb-native)
 - [PostgreSQL](https://github.com/brianc/node-postgres)
 - [ioredis](https://github.com/luin/ioredis)
 
 ## orm odm
 
+- [sequelize](https://github.com/sequelize/sequelize) PostgreSQL, MySQL, SQLite and MSSQL
+- [typeorm](https://typeorm.io/) ORM for TypeScript and JavaScript (ES7, ES6, ES5). 支持 MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, WebSQL databases. 在NodeJS, Browser, Ionic, Cordova and Electron platforms 都能使用.
 - [mongoose](https://github.com/Automattic/mongoose)
+- [knex](https://github.com/tgriesser/knex) PostgreSQL,MySQL,SQLite3
+- [bookshelf](https://github.com/bookshelf/bookshelf) 基于knex的 PostgreSQL, MySQL, and SQLite3.
+- [waterline](http://waterlinejs.org/) mysql, mongo, postgres, nedb, redis
 - [connect-redis](https://github.com/tj/connect-redis) redis session store
-- [sequelize](https://github.com/sequelize/sequelize)
-- [typeorm](https://typeorm.io/)
-- [waterline](http://waterlinejs.org/)
 
 ## 缓存
 
