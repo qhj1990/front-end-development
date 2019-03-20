@@ -15,7 +15,6 @@
 
 - [quasar](https://github.com/quasarframework/quasar)
 
-
 ### web UI
 
 - [element UI](http://element-cn.eleme.io/#/zh-CN/component/installation) 饿了么出品
@@ -47,6 +46,7 @@
 - [iview admin](https://github.com/iview/iview-admin)
 - [d2-admin](https://github.com/d2-projects/d2-admin)
 - [vuestic-admin](https://github.com/epicmaxco/vuestic-admin) 响应式管理系统，Bootstrap4
+- [vue-material-admin](https://github.com/tookit/vue-material-admin)
 
 ### 服务器渲染
 

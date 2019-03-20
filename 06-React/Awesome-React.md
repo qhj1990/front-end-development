@@ -42,7 +42,11 @@
 
 * [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) 可拖拽树
 
-## 拖拽
+### 轮播图
+
+* [react-slick](https://github.com/akiran/react-slick) React轮播图
+
+### 拖拽
 
 * [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 漂亮,可移植性 列表拖拽库
 
@@ -64,6 +68,10 @@
 
 * [react-pdf](https://github.com/wojtekmaj/react-pdf) react
 组件展示pdf， 使用mozilla的pdf.js
+
+### 国际化
+
+* [react-intl](https://github.com/yahoo/react-intl)
 
 ### 动画
 
