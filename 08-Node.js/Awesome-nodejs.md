@@ -53,7 +53,7 @@
 
 ## 监控 服务
 
-- [nodemon](http://nodemon.io/) 代码改变时，node应用自动更新
+- [nodemon](http://nodemon.io/) 代码改变时，node应用自动重启
 - [pm2](https://github.com/Unitech/pm2) [官网](http://pm2.keymetrics.io/)
 
 ## 网络请求
@@ -67,7 +67,7 @@
 ## Excel操作
 
 - [node-xlsx](https://github.com/mgcrea/node-xlsx) 操作excel
-- [excel-export]() 生成excel
+- [excel-export](https://github.com/functionscope/Node-Excel-Export) 生成excel
 
 ## 安全
 
@@ -80,7 +80,7 @@
 
 ## 图片处理
 
-- [sharp](https://github.com/lovell/sharp)
+- [sharp](https://github.com/lovell/sharp) 高性能图片处理
 
 ## 工具
 
@@ -114,17 +114,21 @@
 
 ## 模板template
 
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
-- [ejs](https://ejs.bootcss.com/)
-- [pug](https://pug.bootcss.com/api/getting-started.html)
-- [handlebars](https://note.youdao.com/)
-- [hogan](https://note.youdao.com/)
+- [Nunjucks](https://mozilla.github.io/nunjucks/) [中文](https://nunjucks.bootcss.com/)
+- [ejs](https://www.ejs.co/) [中文](https://ejs.bootcss.com/)
+- [pug](https://pugjs.org/api/getting-started.html) [中文](https://pug.bootcss.com/api/getting-started.html)
+- [handlebars](http://handlebarsjs.com/)
+- [hogan](http://twitter.github.io/hogan.js/) twitter
 
 ## 文档
 
 - [jsDoc](https://github.com/jsdoc3/jsdoc) API文档生成器
 
-## 定时任务
+## 定时任务，任务队列
 
 - [node-schedule](https://github.com/node-schedule/node-schedule) Node定时任务
 - [node-cron](https://github.com/kelektiv/node-cron) Node计划任务
+- [Bull](https://github.com/OptimalBits/bull) 处理分布式任务和消息的队列库
+- [Kue](https://github.com/Automattic/kue)
+- [agenda](https://github.com/agenda/agenda) 轻量
+- [bee-queue](https://github.com/bee-queue/bee-queue)

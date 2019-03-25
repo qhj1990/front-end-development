@@ -38,6 +38,10 @@
 
 * [React Select](https://github.com/JedWatson/react-select) 多选，自动填充，ajax
 
+### 日期选择
+
+* [react-dates](https://github.com/airbnb/react-dates)
+
 ### tree树
 
 * [react-sortable-tree](https://github.com/frontend-collective/react-sortable-tree) 可拖拽树
