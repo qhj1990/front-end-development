@@ -85,12 +85,13 @@
 
 ### 轮播图
 
-- [Vue-Awesome-Swipe](https://surmon-china.github.io/vue-awesome-swiper/) 轮播图基本满足所有需求
+- [Vue-Awesome-Swipe](https://surmon-china.github.io/vue-awesome-swiper/) [github](https://github.com/surmon-china/vue-awesome-swiper) 轮播图基本满足所有需求
 
 ### 下拉选择
 
 - [vue-multiselect](https://github.com/shentao/vue-multiselect) 下拉选择，可多选
 - [vue-select](https://github.com/sagalbot/vue-select) 支持单选多选，ajax，搜索
+- [vue-treeselect](https://github.com/riophae/vue-treeselect) 树形选择框
 
 ### 拖拽组件
 

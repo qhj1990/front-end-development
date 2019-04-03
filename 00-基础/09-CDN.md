@@ -22,6 +22,6 @@
 - 亚马逊云
 - 谷歌云
 
-## CDN延时对比w
+## CDN延时对比
 
 - [https://www.cdnperf.com/](https://www.cdnperf.com/)

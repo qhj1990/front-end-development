@@ -252,6 +252,7 @@ sudo spctl --master-disable
 - [Navicat Premium](https://www.navicat.com.cn/download/navicat-premium)
 - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) MySQL官方数据库管理软件
 - [Redis Desktop Manager](https://redisdesktop.com/) redis操作
+- [medis](https://github.com/luin/medis) Redis管理
 - [Postico](https://eggerapps.at/postico/) PostgreSQL 客户端
 - [SQL Pro Studio](http://www.sqlprostudio.com/)
 - [Robo 3T](https://robomongo.org/) MongoDB 数据库管理
