@@ -35,13 +35,13 @@ export NVM_DIR="$HOME/.nvm"
 ```
 然后继续执行nvm，确保已经按照成功
 
-### 按照稳定版Node
+### 安装稳定版Node
 
 ```
 nvm install stable
 ```
 
-### 按照指定版本
+### 安装指定版本
 
 ```
 nvm install <version>
