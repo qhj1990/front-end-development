@@ -44,3 +44,7 @@
 // 使用一下命令，验证是否安装完成
 git version
 ```
+
+### .gitkeep空文件夹
+
+git 默认不会将空文件夹纳入版本管理中。一般会生成.gitkeep文件用来追踪空文夹，然后在.gitignore中忽略.gitkeep中

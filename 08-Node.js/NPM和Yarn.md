@@ -13,7 +13,7 @@
 ### 常用网站
 
 * [npm中文网](https://www.npmjs.cn/)
-* 
+* [淘宝npm镜像](https://npm.taobao.org/)
 
 ### NPM 模块管理器
 
