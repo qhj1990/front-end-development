@@ -54,6 +54,10 @@
 
 * [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 漂亮,可移植性 列表拖拽库
 
+### 布局
+
+* [muuri](https://haltu.github.io/muuri/) [github](https://github.com/haltu/muuri) 响应式，可排序，可拖拽grid布局
+
 ### 图表
 
 * [recharts](https://github.com/recharts/recharts) D3图表

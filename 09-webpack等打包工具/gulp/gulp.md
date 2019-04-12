@@ -29,6 +29,7 @@ touch gulpfile.js
 ```
 gulp
 ```
+
 默认会执行default任务
 
 ## gulp API
@@ -51,13 +52,20 @@ gulp
 
 ### 编译
 
+* gulp-sass  sass转换成css
+* gulp-less less预处理为css
+* gulp-react   Facebook React JSX 模板编译成JavaScript
+
 ### 压缩
+
+* gulp-uglify  压缩
+* gulp-imagemin  压缩PNG，JPEG，GIF，SVG
 
 ### 代码校验
 
 * [gulp-csslint]()
 * [gulp-htmlhint]()
-* [gulp-jshint]()
+* [gulp-jshint]() js代码检测
 * [gulp-tslint]()
 * [gulp-eslint]()
 * [gulp-lesshint](https://github.com/lesshint/lesshint)
@@ -65,19 +73,12 @@ gulp
 ### 日志
 * [gulp-notify](https://github.com/mikaelbr/gulp-notify)
 
-
-* gulp-uglify  压缩
-* gulp-sass  sass转换成css
-* gulp-less less预处理为css
 * gulp-sourcemaps
 * gulp-plumber   记录错误信息
 * gulp-livereload     自动刷新
-* gulp-imagemin     压缩PNG，JPEG，GIF，SVG
 * gulp-autoprefixer  css前缀
 * gulp-contact    合并文件
 * gulp-rename   重命名
 * gulp-clean  清空文件
-* gulp-jshint    js代码检测
-* gulp-react   Facebook React JSX 模板编译成JavaScript.
 * gulp-uncss   移除未使用的CSS选择器通过
 * gulp-responsive - 生成不同尺寸的图片
