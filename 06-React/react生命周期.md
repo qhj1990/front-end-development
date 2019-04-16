@@ -90,7 +90,7 @@ componentWillUnmount()
 
 ## 组件基本写法
 
-```
+```javascript
 import React, { Component } from 'react'
 
 export default class NewReactComponent extends Component {

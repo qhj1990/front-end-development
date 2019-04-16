@@ -16,11 +16,10 @@
 
 ### CDN部署
 
-- 阿里云
-- 腾讯云
-- 百度云
-- 亚马逊云
-- 谷歌云
+* [阿里云](https://www.aliyun.com/product/cdn/)
+* [腾讯云](https://cloud.tencent.com/product/cdn)
+* [百度云](https://su.baidu.com/product/cdn.html)
+* [亚马逊云](https://aws.amazon.com/cn/cloudfront/)
 
 ## CDN延时对比
 

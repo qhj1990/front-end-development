@@ -130,6 +130,7 @@
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) 自动增加闭合标签，html handlebars 系统内置。XML PHP Vue Javascript TypeScript JSX
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) 自动填充地址和文件名
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 本机开启服务实施更新
+- [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare#overview) 实时代码分享
 - [Cordova Tools](https://marketplace.visualstudio.com/items?itemName=vsmobile.cordova-tools) phoneGap
 - [Color Picker](https://marketplace.visualstudio.com/items?itemName=anseki.vscode-color) 选择颜色
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) 执行代码片段
@@ -158,3 +159,19 @@
 
 - [Setting Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 将本机vscode配置同步到服务器，其他电脑上的vscode编辑器也可以下载这个配置，达到同步配置的效果
+
+### 动画效果
+
+* [animate.css](https://github.com/daneden/animate.css) [官网](https://daneden.github.io/animate.css/) 跨浏览器 css动画库
+* [Hover](https://github.com/IanLunn/Hover)  [demo](http://ianlunn.github.io/Hover/) 在links，buttons。logos，SVG，Images css3动画效果，
+* [vivus](https://github.com/maxwellito/vivus) svg动画
+* [ihover](https://github.com/gudh/ihover) [demo]()
+* [imagehover](http://www.imagehover.io/) [github](https://github.com/ciar4n/imagehover.css) 纯css 图片hover效果库
+
+### 调整大小
+
+* [split.js](https://split.js.org/) [github](https://github.com/nathancahill/split/) 调整大小 ，可用于react
+
+### 提示Tooltip
+
+* [hint.css](https://kushagragour.in/lab/hint/) [github](https://github.com/chinchang/hint.css) 纯css 提示

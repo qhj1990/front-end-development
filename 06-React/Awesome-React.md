@@ -54,6 +54,10 @@
 
 * [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 漂亮,可移植性 列表拖拽库
 
+### 大小调整
+
+* [split.js](https://split.js.org/) [github](https://github.com/nathancahill/split/) 调整大小 ，可用于react
+ 
 ### 图表
 
 * [recharts](https://github.com/recharts/recharts) D3图表
@@ -67,6 +71,7 @@
 ### 富文本编辑
 
 * [draft-js](https://github.com/facebook/draft-js) Facebook推出的富文本编辑器的解决方案，原型，支持深度定制
+* [react-quill](https://github.com/zenoamaro/react-quill)
 
 ### pdf
 

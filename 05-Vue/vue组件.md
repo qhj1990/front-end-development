@@ -4,13 +4,13 @@
 
 ### 全局注册
 
-```
+```vue
 Vue.component('my-component-name', { /* ... */ })
 ```
 
 ### 局部注册
 
-```
+``` javascript
 var ComponentA = { /* ... */ }
 
 var ComponentB = {
@@ -21,7 +21,7 @@ var ComponentB = {
 }
 ```
 
-```
+```javascript
 import BaseButton from './BaseButton.vue'
 import BaseIcon from './BaseIcon.vue'
 import BaseInput from './BaseInput.vue'

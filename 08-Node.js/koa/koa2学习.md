@@ -28,7 +28,7 @@
 
 ### 错误处理
 
-```
+```javascript
 app.on('error', err => {
   log.error('server error', err)
 });
@@ -56,7 +56,7 @@ Koa的Response对象
 
 推荐的命名空间,存储公共数据。
 
-```
+```javascript
 ctx.state.user = '张三';
 ```
 
@@ -161,7 +161,7 @@ ctx.state.user = '张三';
 
 ### 错误处理中间件
 
-```
+```javascript
 app.use(async (ctx, next) => {
 
     next();
@@ -175,7 +175,5 @@ app.use(async (ctx, next) => {
 })
 ```
 
-
 ### 第三方中间件
-
 
