@@ -32,6 +32,7 @@ touch gulpfile.js
 ```
 gulp
 ```
+
 默认会执行default任务
 
 ## gulp API
@@ -69,7 +70,7 @@ gulp
 
 * [gulp-csslint]()
 * [gulp-htmlhint]()
-* gulp-jshint    js代码检测
+* [gulp-jshint]() js代码检测
 * [gulp-tslint]()
 * [gulp-eslint]()
 * [gulp-lesshint](https://github.com/lesshint/lesshint)
@@ -77,7 +78,6 @@ gulp
 ### 日志
 
 * [gulp-notify](https://github.com/mikaelbr/gulp-notify)
-
 
 * gulp-sourcemaps
 * gulp-plumber   记录错误信息

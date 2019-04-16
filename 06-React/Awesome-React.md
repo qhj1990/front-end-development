@@ -58,6 +58,10 @@
 
 * [split.js](https://split.js.org/) [github](https://github.com/nathancahill/split/) 调整大小 ，可用于react
  
+### 布局
+
+* [muuri](https://haltu.github.io/muuri/) [github](https://github.com/haltu/muuri) 响应式，可排序，可拖拽grid布局
+
 ### 图表
 
 * [recharts](https://github.com/recharts/recharts) D3图表
