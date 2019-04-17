@@ -60,7 +60,7 @@ cd sails-project && sails lift
   * .eslintrc 最高级的编码规范，允许前端js代码和后端代码在Node.js程序
   * favicon.ico
 * config 定制和配置文件
-  * env 不同的环境允许不同的任务
+  * env 环境专用文件
     * production.js 当允许sails lift --prod时，这些设置将会载入
   * locales
     * de.json German德语
@@ -71,32 +71,33 @@ cd sails-project && sails lift
   * bootstrap.js
   * custom.js
   * datastores.js
-  * globals.js
-  * http.js
-  * i18n.js
-  * local.js
-  * log.js
-  * models.js
+  * globals.js 配置全局变量
+  * http.js 配置底层http和http中间件
+  * i18n.js 国际化设置
+  * local.js 设置一下个人系统的配置
+  * log.js 将日志分为0-6不同的等级
+  * models.js 该文件中的所有的properties都会包含在每一个models中
   * policies.js
-  * routes.js
-  * security.js
-  * session.js
+  * routes.js 自定义路由配置，除了自定义路由之外还可能匹配Blueprint route， Assets里的文件，CSRF
+  * security.js 全局安全设置CORS CSRF
+  * session.js 告诉Sails哪里存储sessions,可用内置，也可使用mongodb和redis
   * sockets.js
   * views.js sails默认使用ejs渲染html，在次可以修改为其他的模板引擎
 * tasks
   * config
-    * babel.js Grunt任务：ES8 ES7 ES6转化为ES5。默认只会吧assets/js文件夹下的js文件才会转为旧浏览器可允许的代码
-    * clean.js
-    * coffee.js
+    * babel.js Grunt任务：ES8 ES7 ES6语法转化为ES5。默认只会吧assets/js文件夹下的js文件才会转为旧浏览器可允许的代码
+    * clean.js 清空.tmp/public文件
+    * coffee.js 将assets/js中的coffeeScript文件编译代替.tmp/public/js/
     * concat.js
-    * cssmin.js
-    * hash.js
-    * jst.js
-    * less.js
-    * sails-linker.js
-    * sync.js
-    * uglify.js
-    * watch.js
+    * copy.js dev状态下将除了coffeescipt和less文件的所有文件和文件夹从assets文件夹复制到.tmp/public目录， build环境一下复制.tmp/public所有的文件复制到www目录
+    * cssmin.js 压缩css文件代替到.tmp/public/min目录
+    * hash.js 在缓冲busing文件名称后面创建和增加一个唯一的hash
+    * jst.js 预编译underscore模板成.jst文件在客户端能够加速模板渲染，减少宽带使用
+    * less.js 将less文件编译成css。只编译assets/styles/importer.less
+    * sails-linker.js 讲js文件自动注入到script标签，将css文件自动注入到<link>
+    * sync.js 当文件实际发生改变时，同步asset/ 文件夹到.tmp/public/
+    * uglify.js 压缩客户端js资源。函数名和变量名都会改变，显著缩小文件大小
+    * watch.js assets/文件下 文件增加，改变或者删除时，自动执行任务，无需重启sails 服务
   * register
     * build.js
     * buildProd.js
@@ -113,7 +114,7 @@ cd sails-project && sails lift
   * layouts
     * layout.ejs 默认的布局模板
   * pages
-    * homepage.ejs 
+    * homepage.ejs
   * .eslintrc
   * 404.ejs
   * 500.ejs
@@ -122,8 +123,36 @@ cd sails-project && sails lift
 * .eslintrc
 * .gitignore
 * .htmlhintrc
-* .sailsrc
+* .sailsrc sails cli执行一个命令时，首先会寻找这个文件中的配置
 * app.js
 * Gruntfile.js
 * package.json
 * README.md
+
+## sails命令行界面
+
+### sails console
+
+### sails debug
+
+适用低版本Node，调试app
+
+### sails generate
+
+可以生成page, model, action, helper, controller, hook等等
+
+### sails inspect
+
+适用高版本Node，执行后，可用chrome devtools 来交互式调试app
+
+### sails lift
+
+默认是开发模式状态，启动服务
+
+### sails new
+
+新建sails app项目
+
+### sails version
+
+sails版本
