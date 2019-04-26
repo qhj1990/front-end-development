@@ -18,7 +18,7 @@ box-sizing属性
 
 ### position 定位
 
-### display 
+### display
 
 ### float 浮动
 

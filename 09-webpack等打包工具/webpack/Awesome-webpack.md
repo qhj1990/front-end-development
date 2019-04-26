@@ -1,4 +1,6 @@
-##
+# awesome-webpack
+
+## webpack参考资料
 
 * [webpack官网](https://webpack.js.org/)
 * [webpack中文](https://webpack.docschina.org/)
@@ -7,11 +9,9 @@
 
 ## webpack源码分析
 
-
 ## webpack & React
 
 ## webpack & Vue
-
 
 ## 教程
 

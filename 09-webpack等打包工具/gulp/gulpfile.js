@@ -36,6 +36,7 @@ const cleancss = require('gulp-clean-css'); // 压缩css
 const csso = require('gulp-csso');
 const htmlmin = require('gulp-htmlmin'); // 压缩HTML
 const imagemin = require('gulp-imagemin'); // 压缩PNG，JPEG，GIF，SVG图片
+const pngquant = require('imagemin-pngquant'); // 深度压缩图片
 const zip = require('gulp-zip'); // zip压缩文件
 
 /**

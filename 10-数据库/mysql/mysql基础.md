@@ -1,19 +1,27 @@
+# mysql基础
+
+## 开始使用msyql
+
 ### 创建数据库
-```
+
+```msql
 create database name;
 ```
+
 ### 显示数据库
-```
+
+```mysql
 show databse;
 ```
+
 ### 使用数据库
-```
+
+```mysql
 use name；
 ```
 
-
-
 ## mysql password
+
 mac下安装Mysql5.7会产生一个默认密码，既不是root也不是空，是一个随机的字符串，在安装过程中会有提醒，若忘记了密码，可以按照以下的方法来重置默认密码。#8wdbjnfzq.H
 
 ```

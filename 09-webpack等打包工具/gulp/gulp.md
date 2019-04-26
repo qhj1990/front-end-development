@@ -41,8 +41,8 @@ gulp
 - dest() 写入文件
 - symlink()
 - lastRun()
-- series()
-- parallel()
+- series() 按顺序进行task
+- parallel() 同时进行多个task
 - task(name[,deps], fn) 定义一个task，任务的名称，依赖，和执行的内容
 - watch() 监听文件，执行任务
 - registry()

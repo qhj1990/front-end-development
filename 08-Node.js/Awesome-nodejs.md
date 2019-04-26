@@ -73,7 +73,7 @@
 ## 安全
 
 * [helmet](https://github.com/helmetjs/helmet)
-* [xss]()
+* [xss](https://github.com/leizongmin/js-xss)
 
 ## 推送
 
