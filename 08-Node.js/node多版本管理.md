@@ -55,20 +55,20 @@ nvm uninstall <version>
 
 ### 切换成指定的版本
 
-```
+```shell
 nvm use <version>
 ```
 
 ### 列出所有安装的版本
 
-```
+```shell
 nvm ls
 
 ```
 
 ### 显示Node官方所有版本
 
-```
+```shell
 nvm ls-remote
 ```
 
@@ -78,19 +78,19 @@ nvm ls-remote
 
 ### 安装n
 
-```
+```shell
 npm install -g n
 ```
 
 ### 安装特定版本的node
 
-```
+```shell
 n 10.15.3
 ```
 
 ### 显示当前电脑所有已安装的node版本
 
-```
+```shell
 n
 ```
 
@@ -98,31 +98,31 @@ n
 
 ### 安装官方最新的版本
 
-```
+```shell
 n latest
 ```
 
 ### 安装最新的长期支持版LTS
 
-```
+```shell
 n lts
 ```
 
 ### 删除特定版本
 
-```
+```shell
 n rm 10.15.3
 ```
 
 ### 删除其他版本除了当前版本
 
-```
+```shell
 n prune
 ```
 
 ### 帮助
 
-```
+```shell
 n --help
 // 或者
 n -h

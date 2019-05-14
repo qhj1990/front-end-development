@@ -157,49 +157,56 @@ yarn --version
 
 ### 初始化项目
 
-```
+```shell
 yarn init
 ```
 
 ### 添加依赖包
 
-```yarn add [package]
+```shell
+yarn add [package]
 yarn add [package]@[version]
 yarn add [package]@[tag]
 ```
 
 ### 将依赖包添加到不同类别
 
-```yarn add [package] --dev
+```shell
+yarn add [package] --dev
 yarn add [package] --peer
 yarn add [package] --optional
 ```
 
 ### 升级依赖包
 
-```yarn upgrade [package]
+```shell
+yarn upgrade [package]
 yarn upgrade [package]@[version]
 yarn upgrade [package]@[tag]
 ```
 
 ### 移除依赖包
 
-```yarn remove [package]
+```shell
+yarn remove [package]
 ```
 
 ### 安装项目的所有依赖
 
-```yarn
+```shell
+yarn
 ```
 
 ### 执行自定义脚本
 
-```yarn run [script] [<args>]
+```shell
+yarn run [script] [<args>]
 ```
 
 ### 全局安装
 
-```yarn global add [package]
+```shell
+yarn global add [package]
 ```
 
 ### 固化依赖

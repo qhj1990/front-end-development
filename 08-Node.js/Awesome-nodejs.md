@@ -82,6 +82,7 @@
 ## 图片处理
 
 * [sharp](https://github.com/lovell/sharp) 高性能图片处理
+* [jimp](https://github.com/oliver-moran/jimp) Node图片处理，支持bmp,gif,
 
 ## 工具
 
@@ -120,6 +121,7 @@
 * [pug](https://pugjs.org/api/getting-started.html) [中文](https://pug.bootcss.com/api/getting-started.html)
 * [handlebars](http://handlebarsjs.com/)
 * [hogan](http://twitter.github.io/hogan.js/) twitter
+* [jade](http://jade-lang.com/)
 
 ## 文档
 

@@ -3,7 +3,7 @@
 <details>
 <summary>目录</summary>
 
-* [`eact资源`](##react资源)
+* [`react资源`](##react资源)
 
 </details>
 
@@ -53,11 +53,12 @@
 ### 拖拽
 
 * [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 漂亮,可移植性 列表拖拽库
+* [react-DND](https://github.com/react-dnd/react-dnd) [官网](http://react-dnd.github.io/react-dnd/about)
 
 ### 大小调整
 
 * [split.js](https://split.js.org/) [github](https://github.com/nathancahill/split/) 调整大小 ，可用于react
- 
+
 ### 布局
 
 * [muuri](https://haltu.github.io/muuri/) [github](https://github.com/haltu/muuri) 响应式，可排序，可拖拽grid布局
