@@ -16,7 +16,7 @@
 
 1. 安装必要程序
 
-```
+```shell
 yum -y install gcc gcc-c++ autoconf pcre-devel make automake
 yum -y install wget httpd-tools vim
 
@@ -24,7 +24,7 @@ yum -y install wget httpd-tools vim
 
 ## 查看nginx版本
 
-```
+```shell
 yum list | grep nginx
 
 ```
@@ -35,11 +35,11 @@ http://nginx.org/en/download.html
 
 ## 配置yum源
 
-```
+```shell
 vim /etc/yum.repos.d/nginx.repo
 ```
 
-```
+```shell
 [nginx]
 name=nginx repo
 baseurl=http://nginx.org/packages/OS/OSRELEASE/$basearch/
@@ -52,7 +52,7 @@ baseurl=http://nginx.org/packages/centos/7/$basearch/
 
 ## 安装
 
-```
+```shell
 yum install nginx
 ```
 
@@ -60,7 +60,7 @@ yum install nginx
 
 会出现以前nginx modules 和现在官方的modules 不匹配需要我们先将旧的modules 卸载安装新版官方的modules
 
-```
+```shell
 yum remove nginx-mod*
 
 yum install nginx-module-*
@@ -70,13 +70,13 @@ systemctl restart nginx
 
 ## 版本号
 
-```
+```shell
 nginx -v
 ```
 
 ## 查看Nginx的安装目录
 
-```
+```shell
 rpm -ql nginx
 ```
 
@@ -92,13 +92,13 @@ rpm 是linux的rpm包管理工具，-q 代表询问模式，-l 代表返回列�
 
 1. 直接启动
 
-```
+```shell
 nginx
 ```
 
 2. systemctl
 
-```
+```shell
 systemctl start nginx.service
 ```
 
@@ -106,43 +106,43 @@ systemctl start nginx.service
 
 1. 从容停止
 
-```
+```shell
 nginx -s quit
 ```
 
 2. 立即停止
 
-```
+```shell
 nginx -s stop
 ```
 
 3. 暴力停止进程
 
-```
+```shell
 killall nginx
 ```
 
 4. systemctl
 
-```
+```shell
 systemctl start nginx.service
 ```
 
 ### 重启nginx 服务
 
-```
+```shell
 systemctl restart nginx.service
 ```
 
 ### 重新载入配置文件
 
-```
+```shell
 nginx -s reload
 ```
 
 ## 查看端口号占用
 
-```
+```shell
 netstat -tlnp
 ```
 
@@ -264,7 +264,7 @@ server{
 
 1. 在/usr/share/nginx/目录下新建两个文件夹，分别为：pc和mobile目录
 
-```
+```shell
 cd /usr/share/nginx
 mkdir pc mobile
 ```

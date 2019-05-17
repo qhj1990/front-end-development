@@ -43,7 +43,7 @@
 
 ## 缓存
 
-* [node-cache](https://github.com/ptarjan/node-cache/) 
+* [node-cache](https://github.com/ptarjan/node-cache/)
 
 ## 日志
 
@@ -135,3 +135,7 @@
 * [Kue](https://github.com/Automattic/kue)
 * [agenda](https://github.com/agenda/agenda) 轻量
 * [bee-queue](https://github.com/bee-queue/bee-queue)
+
+## 系统
+
+* [cross-env](https://github.com/kentcdodds/cross-env) package.json中的scripts跨平台设置系统变量

@@ -2,6 +2,8 @@
 
 package.json 中scripts对象配置的脚本，可以通过npm run script-name来执行。每当执行npm run时，会自动新建一个Shell，会将当前目录的node_modules/.bin子目录假如PATH变量，执行结束后，PATH变量会恢复。
 
+[文档](https://www.npmjs.com.cn/misc/scripts/)
+
 ## 通配符
 
 npm脚本即为shell脚本，可以使用shell的通配符。 * 代表任意文件名，** 代表任意一层子目录。
@@ -17,6 +19,10 @@ npm脚本即为shell脚本，可以使用shell的通配符。 * 代表任意文�
 ### env
 
 env可以列出所有环境变量
+
+### 跨环境设置变量cross-env
+
+windows不支持NODE_ENV=development的设置模式
 
 ## 参数
 

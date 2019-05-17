@@ -4,8 +4,10 @@
 
 ### centos
 
-[centos](https://www.centos.org/)
+[centos](https://www.centos.org/), 版本比较稳定
 
-### unbuntu
+### ubuntu
+
+[ubuntu](https://www.ubuntu.com/index_kylin)
 
 ## linux 命令行
