@@ -4,9 +4,32 @@
 
 ### commonjs
 
+CommonJS是Node.js使用的模块化规范。每一个文件就是一个模块，有单独的作用域。
+
+用require来加载模块，exports和module.exports暴露模块的内容
+
+```javascript
+module.exports = {
+
+}
+# 或者
+
+exports.add = function(){
+
+}
+```
+
+#### module对象
+
+#### exports
+
+exports变量，指向module.exports.
+
 ### AMD
 
 ### CMD
+
+### ES6
 
 ### 教程
 

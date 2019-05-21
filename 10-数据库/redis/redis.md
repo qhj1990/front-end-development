@@ -3,7 +3,8 @@
 ## 资源
 
 * [官网](https://redis.io/)
-* [redis 官方Docker镜像](https://github.com/docker-library/redis)
+* [redis中文](http://www.redis.cn/)
+* [redis官方Docker镜像](https://github.com/docker-library/redis)
 * [Redis命令参考](http://redisdoc.com/index.html) 中文
 * [《Redis设计与实现》](http://redisbook.com/)
 
