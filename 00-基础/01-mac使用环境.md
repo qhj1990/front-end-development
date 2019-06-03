@@ -92,6 +92,7 @@ sudo spctl --master-disable
 * [Teambition](https://www.teambition.com/) 团队协作
 * [MWeb](https://zh.mweb.im/) Markdown编辑器
 * [Mou](http://25.io/mou/) Markdown编辑器
+* [语雀](https://www.yuque.com) 蚂蚁金服下文档编写，只是沉淀工具
 
 ### PDF
 
@@ -179,14 +180,15 @@ sudo spctl --master-disable
 
 ### 远程连接
 
-* [jump desktop](https://jumpdesktop.com/) 
+* [jump desktop](https://jumpdesktop.com/) iOS Androud MacOS Windows
 * [TeamViewer](https://www.teamviewer.com/cn/) 远程协助，在线会议
+* [向日葵](https://sunlogin.oray.com/zh_CN/) 远程控制电脑，Android手机。只需安装同个软件
 
 ### 虚拟机
 
 * [VMware Fusion](https://www.vmware.com/cn/products/fusion/fusion-evaluation.html)
 * [Parallels desktop](https://www.parallels.com/cn/)
-* [CrossOver](https://www.codeweavers.com/products) Mac按照windows应用，支持部分软件
+* [CrossOver](https://www.codeweavers.com/products) Mac安装windows应用，支持部分软件
 
 ### 系统其他
 
