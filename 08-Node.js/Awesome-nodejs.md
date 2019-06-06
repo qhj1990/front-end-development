@@ -51,6 +51,7 @@
 * [bunyan](https://github.com/trentm/node-bunyan)
 * [log4js](https://github.com/nomiddlename/log4js-node)
 * [intel](https://github.com/seanmonstar/intel)
+* [pino](https://github.com/pinojs/pino)
 
 ## 监控 服务
 

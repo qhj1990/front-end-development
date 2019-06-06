@@ -1,30 +1,72 @@
+# vue生命周期
 
-## 生命周期
+## beforeCreate & created
 
-1. beforeCreate
->  组件实例初始化后，,此时无法访问到 el 属性和 data 属性等
+```vue
+Vue.prototype._init = function (options?: Object) {
+  // ...
+  initLifecycle(vm)
+  initEvents(vm)
+  initRender(vm)
+  callHook(vm, 'beforeCreate')
+  initInjections(vm) // resolve injections before data/props
+  initState(vm)
+  initProvide(vm) // resolve provide after data/props
+  callHook(vm, 'created')
+  // ...
+}
+```
 
-2. created 
->  能读取data，DOM未形成。数据观测 (data observer)，属性和方法的运算，watch/event 事件回调。然而，挂载阶段还没开始，$el 属性目前不可见。。$el属性不可见，进行一些异步的操作请求
+vue实例化阶段 ._init方法中执行。在initState之前。initState作用是初始化props、 data、 methods、 watch、 computed等属性
 
-3. beforeMount 
->  挂载前.render 函数首次被调用
+### beforeCreate
 
-4. mounted 挂载
->  el 被新创建的 vm.$el替换，将$el的内容挂载到了el，将数据渲染到真实dom，可以操作真实是DOM
+* 不能访问真实DOM
 
-5. beforeUpdate 组件更新之前
-> data改变时，数据更新到dom之前，看到$el对象已经修改，但是页面上dom的数据还没有发生改变
+组件实例初始化后,此时无法访问到 el 属性和 data 属性等
 
-6. updated
->  组件更新之后，真实DOM已经改变
+用于：
+组件加载时与后台有交互
 
-7. beforeDestroy
->  组件销毁之前，清除定时器、事件绑定
+### created
 
-8. destroyed
->  实例销毁后虽然 dom 和属性方法都还存在. 实例被完全销毁，包含子实例。但改变他们都将不再生效!
+能读取data，DOM未形成。数据观测 (data observer)，属性和方法的运算，watch/event 事件回调。然而，挂载阶段还没开始，$el 属性目前不可见。。$el属性不可见，进行一些异步的操作请求
 
+可以访问props data
+
+## beforeMount & mounted
+
+DOM挂载
+
+### beforeMount
+
+挂载前.render 函数首次被调用
+
+### mounted 挂载
+
+el 被新创建的 vm.$el替换，将$el的内容挂载到了el，将数据渲染到真实dom，可以操作真实的DOM
+
+## beforeUpdate & updated
+
+### beforeUpdate 组件更新之前
+
+data改变时，数据更新到dom之前，看到$el对象已经修改，但是页面上dom的数据还没有发生改变
+
+### updated
+
+组件更新之后，真实DOM已经改变
+
+## beforeDestroy & destryod
+
+组件销毁阶段。
+
+### beforeDestroy
+
+组件销毁之前，执行一些销毁动作。从parent删除$children中删除自身.删除watcher
+
+### destroyed
+
+实例销毁后虽然 dom 和属性方法都还存在. 实例被完全销毁，包含子实例。但改变他们都将不再生效!
 
 ### 注意
 
