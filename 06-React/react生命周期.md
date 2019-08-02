@@ -29,6 +29,7 @@ react最重要的步骤，创建虚拟dom，进行diff算法，更新dom树都�
 #### 6. componentDidMount()
 
 组件渲染之后调用，只调用一次
+
 ### Updating（更新阶段：涉及5个钩子函数)
 
 #### 1. componentWillReceivePorps(nextProps)
