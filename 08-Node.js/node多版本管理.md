@@ -10,14 +10,14 @@ NVM（Node Version Manangerment）
 
 ### 安装和更新nvm
 
-```
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+```shell
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
 ```
 
 或者
 
-```
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+```shell
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | bash
 ```
 
 ### 验证是否成功
@@ -28,28 +28,29 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | 
 
 若提示"-bash: nvm: command not found"，表示还需要继续操作
 
-```
+```shell
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
+
 然后继续执行nvm，确保已经按照成功
 
 ### 安装稳定版Node
 
-```
+```shell
 nvm install stable
 ```
 
 ### 安装指定版本
 
-```
+```shell
 nvm install <version>
 ```
 
 ### 删除已安装的指定版本
 
-```
+```shell
 nvm uninstall <version>
 ```
 
