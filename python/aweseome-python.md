@@ -1,6 +1,7 @@
 # python
 
 * [awesome-python](https://github.com/vinta/awesome-python)
+* [Python-100-Days](https://github.com/jackfrued/Python-100-Days) 100天从python基础到大师
 
 ## 版本管理
 

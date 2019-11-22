@@ -15,6 +15,7 @@
 * [React Github](https://github.com/facebook/react)
 * [React中文](https://zh-hans.reactjs.org/)
 * [awesome react](https://github.com/enaqx/awesome-react)
+* [React设计思想](https://github.com/react-guide/react-basic)
 
 ### UI
 

@@ -116,3 +116,83 @@ EOF
 ```shell
 `expr 1 + 1`
 ```
+
+## 操作文件和目录
+
+### cp
+
+copy files and directories 拷贝文件和目录
+
+### mv
+
+move/rename files and directories 移动/重命名 文件和目录
+
+### mkdir
+
+create directories 创建文件夹
+
+### rm
+
+remove files and directories 删除文件活文件夹
+
+```shell
+rm name.txt
+rm directory
+rm -i name
+```
+
+### rmdir
+
+删除空目录
+
+### cat
+
+查看文件
+
+### tac
+
+最后一行到第一行显示，和cat相反
+
+### tail
+
+查看文档的内容，可以查看最后几行，默认最后10行
+
+### head
+
+查看文件前几行
+
+### ln
+
+创建硬链接和符合链接
+
+## 压缩
+
+### gzip
+
+压缩一个或者多个文件
+
+#### gzip options
+
+### gunzip
+
+把压缩文件复原为没有被压缩的版本
+
+### bzip
+
+### tar
+
+### zip
+
+### rsync
+
+## 流程控制
+
+### if else
+
+### switch
+
+### for
+
+### while
+
+### until

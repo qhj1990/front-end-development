@@ -14,11 +14,7 @@
 
 [debian](https://www.debian.org/)
 
-## shell
-
-shell版本包括sh, Bash; Bash是大多数默认的Shell
-
-### 命令行
+### 命令行command line
 
 ```shell
 type echo
