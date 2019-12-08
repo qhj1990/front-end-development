@@ -246,7 +246,8 @@ sudo spctl --master-disable
 
 * [postman](https://www.getpostman.com/)接口调试
 * [Charles](https://www.charlesproxy.com/)
-* [CocoaRestClient](http://macappstore.org/cocoarestclient/) 
+* [CocoaRestClient](http://macappstore.org/cocoarestclient/)
+* [Bagel](https://github.com/yagiz/Bagel) iOS设备,连接mac网络调试工具 
 
 ### 数据库
 

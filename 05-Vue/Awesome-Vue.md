@@ -113,9 +113,12 @@
 
 ### 富文本编辑器
 
-- [vue-ueditor-wrap](https://github.com/HaoChuan9421/vue-ueditor-wrap) UEditor编辑器
 - [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) 基于 Quill、适用于 Vue 的富文本编辑器，支持服务端渲染和单页应用。
+- [vue-ueditor-wrap](https://github.com/HaoChuan9421/vue-ueditor-wrap) UEditor编辑器
+- [tiptap](https://github.com/scrumpy/tiptap)
 - [vue-codemirror](https://github.com/surmon-china/vue-codemirror) 基于codemirror的web代码编辑器
+
+### 其他
 
 - [vue-pdf](https://github.com/FranckFreiburger/vue-pdf) pdf显示
 - [vue-fullpage.js](https://github.com/alvarotrigo/vue-fullpage.js) fullpage全屏滚动组件
