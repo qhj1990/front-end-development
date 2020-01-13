@@ -117,6 +117,7 @@
 - [vue-ueditor-wrap](https://github.com/HaoChuan9421/vue-ueditor-wrap) UEditor编辑器
 - [tiptap](https://github.com/scrumpy/tiptap)
 - [vue-codemirror](https://github.com/surmon-china/vue-codemirror) 基于codemirror的web代码编辑器
+- [wangEditor](https://github.com/wangfupeng1988/wangEditor) 轻量级web富文本框
 
 ### 其他
 
