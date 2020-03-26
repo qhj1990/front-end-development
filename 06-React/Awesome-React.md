@@ -1,12 +1,5 @@
 # react基础
 
-<details>
-<summary>目录</summary>
-
-* [`react资源`](##react资源)
-
-</details>
-
 ## react资源
 
 ### react
@@ -14,6 +7,7 @@
 * [React官网](https://reactjs.org/)
 * [React Github](https://github.com/facebook/react)
 * [React中文](https://zh-hans.reactjs.org/)
+* [印记中文React](https://react.docschina.org/)
 * [awesome react](https://github.com/enaqx/awesome-react)
 * [React设计思想](https://github.com/react-guide/react-basic)
 
@@ -21,12 +15,11 @@
 
 * [ant-design](http://ant.design/) 支付宝出品的react组件库
 * [material-ui](http://www.material-ui.com/#/)
-* [react-bootstrap](http://react-bootstrap.github.io/)
+* [buefy](https://github.com/buefy/buefy/) 基于Bulma的轻量级UI组件
+* [react-bootstrap](http://react-bootstrap.github.io/) React Bootstrap
 * [Zent](https://github.com/youzan/zent) 是有赞 PC 端 WebUI 规范的 React 实现
 * [blue-print](https://github.com/palantir/blueprint)
 * [react-toolbox](https://github.com/react-toolbox/react-toolbox/) Google Material Design 风格
-* [buefy](https://github.com/buefy/buefy/) 基于Bulma的轻量级UI组件
-* [Amaze UI](http://amazeui.org/react/components/)
 
 ### admin或者project
 

@@ -1,6 +1,6 @@
 # awesome-rollup
 
-rollup是JavaScript模块打包器。
+rollup是JavaScript模块打包器。使用ES6模块
 
 ## 资源
 

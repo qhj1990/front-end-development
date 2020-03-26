@@ -25,17 +25,15 @@
 - [vue-material](https://vuematerial.io/)
 - [buefy](https://github.com/buefy/buefy) vue + bulma 轻量的
 - [bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)  Bootstrap4组件
-- [vue-beauty](https://github.com/FE-Driver/vue-beauty) 基于ant design样式优化
-- [at uikit](https://at-ui.github.io/at-ui/#/zh) 凹凸实验室
 - [vuesax](https://github.com/lusaxweb/vuesax)
 
 ### mobile UI
 
-- [mint-ui](http://mint-ui.github.io/docs/#/zh-cn2)
-- [vux](https://doc.vux.li/zh-CN/) VUX 样式基于 WeUI
 - [vant有赞](https://youzan.github.io/vant/#/zh-CN/intro) 有赞移动端Vue组件库
-- [Mand Mobile](https://didi.github.io/mand-mobile/#/zh-CN/docs/introduce) 滴滴出品的面向金融场景设计的移动端组件库
+- [vux](https://doc.vux.li/zh-CN/) VUX 样式基于 WeUI
 - [cube-ui](https://didi.github.io/cube-ui/#/zh-CN) 滴滴出品
+- [mint-ui](http://mint-ui.github.io/docs/#/zh-cn2)
+- [Mand Mobile](https://didi.github.io/mand-mobile/#/zh-CN/docs/introduce) 滴滴出品的面向金融场景设计的移动端组件库
 - [vue-onsenui](https://onsen.io/v2/guide/vue/)
 - [vue-framework7](https://github.com/framework7io/framework7)
 - [NutUI](https://nutui.jd.com/#/index) 京东风格的轻量级移动端Vue组件库

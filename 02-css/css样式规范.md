@@ -2,16 +2,16 @@
 
 [idiomatic-css](https://github.com/necolas/idiomatic-css/tree/master/translations/zh-CN)
 
-### 声明顺序
+## 声明顺序
 
 相关属性放在一起
 
-### 命名
+## 命名
 
 命名时尽量要清晰，有意义
 
-
 ## css 整体结构
+
 ``` css
 /**
  * CONTENTS

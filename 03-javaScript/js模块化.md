@@ -100,18 +100,17 @@ define(function () {
 * 定义有依赖的函数
 
 ```javascript
-define(["./cart", "./inventory"], function(cart, inventory) {
-        //return an object to define the "my/shirt" module.
-        return {
-            color: "blue",
-            size: "large",
-            addToCart: function() {
-                inventory.decrement(this);
-                cart.add(this);
-            }
+define(["./cart", "./inventory"], function(cart, inventory){
+    //return an object to define the "my/shirt" module.
+    return {
+        color: "blue",
+        size: "large",
+        addToCart: function() {
+            inventory.decrement(this);
+            cart.add(this);
         }
     }
-);
+});
 ```
 
 ### 3.CMD

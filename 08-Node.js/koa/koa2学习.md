@@ -6,13 +6,22 @@
 * [koa中文](https://koa.bootcss.com/)
 * [github](https://github.com/koajs/koa)
 
-## koa中间件
+## koa源码结构
+
+* application.js
+* context.js
+* request.js
+* response.js
+
+## 洋葱模型
+
+app.listen监听端口的时候会返回一个callback()函数，函数里有个midllerware数组，里面是各个注册的中间件。这些中间件是由koa-compose组合起来，用next()形成串行机智，并支持异步操作，将context一路传给中间件。 遇到await，await要等待下一个中间件的函数去执行，直到没有next(),再一层一层返回到第一个中间件
 
 ## 应用app
 
 ### app.listen()
 
-将英语程序绑定到具体端口号
+将应用程序绑定到具体端口号
 
 ### app.callback()
 
@@ -20,7 +29,7 @@
 
 ### app.use(function)
 
-将中间件添加到应用程序中
+将中间件添加到middleware数组中,
 
 ### app.context
 
@@ -174,5 +183,3 @@ app.use(async (ctx, next) => {
     }
 })
 ```
-
-### 第三方中间件

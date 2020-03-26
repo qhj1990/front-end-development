@@ -39,6 +39,11 @@
 
 * [husky](https://github.com/typicode/husky) Node.js git hooks package.json
 
+## git优点
+
+* 开源
+* 支持离线操作
+
 ## git使用
 
 ### 安装git
