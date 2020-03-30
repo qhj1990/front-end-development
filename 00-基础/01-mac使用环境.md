@@ -248,7 +248,7 @@ sudo spctl --master-disable
 * [postwoman](https://postwoman.io)
 * [Charles](https://www.charlesproxy.com/)
 * [CocoaRestClient](http://macappstore.org/cocoarestclient/)
-* [Bagel](https://github.com/yagiz/Bagel) iOS设备,连接mac网络调试工具 
+* [Bagel](https://github.com/yagiz/Bagel) iOS设备,连接mac网络调试工具
 
 ### 数据库
 

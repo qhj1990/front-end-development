@@ -14,11 +14,9 @@ zlib模块可以对HTTP中定义的gzip和deflate内容编码进行处理
 
 调用.flush会使zlib返回尽可能多的输出，会损耗一定的压缩质量。
 
-
 ## 常量
 
 ### zlib常量
-
 
 ## Options
 

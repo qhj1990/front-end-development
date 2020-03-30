@@ -6,13 +6,13 @@
 
 ### 免费CDN
 
-- [cdnjs](https://cdnjs.com/)
-- [JSDELIVR](https://www.jsdelivr.com/)
-- [UNPKG](https://unpkg.com/#/stats)
-- [又拍云](http://jscdn.upai.com/)
-- [BootCDN](https://www.bootcdn.cn/)
-- [75CDN](https://cdn.baomitu.com/)
-- [Staticfile CDN](http://staticfile.org/)
+* [cdnjs](https://cdnjs.com/)
+* [JSDELIVR](https://www.jsdelivr.com/)
+* [UNPKG](https://unpkg.com/#/stats)
+* [又拍云](http://jscdn.upai.com/)
+* [BootCDN](https://www.bootcdn.cn/)
+* [75CDN](https://cdn.baomitu.com/)
+* [Staticfile CDN](http://staticfile.org/)
 
 ### CDN部署
 
@@ -23,4 +23,4 @@
 
 ## CDN延时对比
 
-- [https://www.cdnperf.com/](https://www.cdnperf.com/)
+* [https://www.cdnperf.com/](https://www.cdnperf.com/)

@@ -1,4 +1,4 @@
-# react基础
+# awesome-react
 
 ## react资源
 
@@ -14,7 +14,7 @@
 ### UI
 
 * [ant-design](http://ant.design/) 支付宝出品的react组件库
-* [material-ui](http://www.material-ui.com/#/)
+* [material-ui](http://www.material-ui.com)
 * [buefy](https://github.com/buefy/buefy/) 基于Bulma的轻量级UI组件
 * [react-bootstrap](http://react-bootstrap.github.io/) React Bootstrap
 * [Zent](https://github.com/youzan/zent) 是有赞 PC 端 WebUI 规范的 React 实现
@@ -31,6 +31,10 @@
 * [react-bootstrap-table](http://allenfang.github.io/react-bootstrap-table/example.html)
 * [react-spreadsheet-grid](https://github.com/denisraslov/react-spreadsheet-grid) Excel风格的组件，可以编辑单元格，改变列的大小
 * [react-datasheet](https://github.com/nadbm/react-datasheet) Excel风格
+
+### 虚拟滚动
+
+* [react-virtualized](https://github.com/bvaughn/react-virtualized) 渲染长列表
 
 ### select下拉框
 
@@ -91,7 +95,7 @@
 
 ### 路由
 
-* [react-router](https://github.com/ReactTraining/react-router) 
+* [react-router](https://github.com/ReactTraining/react-router)
 
 ### 状态管理
 

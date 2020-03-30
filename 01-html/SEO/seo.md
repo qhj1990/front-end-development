@@ -4,8 +4,6 @@ SearchEnigne Optimization 搜索引擎优化。 优化后更能被搜索引擎�
 
 ## 如何进行优化
 
-* 
-
 ## robots.txt
 
 robots.txt文件放置在网站根目录下。搜索引擎的爬虫会根据协议限定访问内容

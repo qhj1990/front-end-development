@@ -18,6 +18,11 @@ box-sizing属性
 
 ### position 定位
 
+* static
+* relative
+* absolute
+* fixed
+
 ### display
 
 ### float 浮动

@@ -18,3 +18,12 @@
 * 单一数据源
 * state是只读，只能通过触发action来改变
 * 使用纯函数来执行修改reducers
+
+action是一个json对象
+reducers是纯函数。返回新的state
+
+* dispath action
+* reducer
+* 返回新state的
+* store
+* 更新试图

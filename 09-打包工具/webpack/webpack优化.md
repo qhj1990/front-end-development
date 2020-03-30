@@ -19,10 +19,6 @@ npm install webpack-bundle-analyzer
 
 将特定的第三方NPM包模块提前构建，然后通过页面引入。
 
-### 外部引入CDN
-
-常用库，可以使用externals予以指定，webpack不会将这些进行打包
-
 ### 第三方包
 
 ### 压缩代码
@@ -41,7 +37,7 @@ npm install uglifyjs-webpack-plugin --save-dev
 
 ### externals
 
-如jQuery
+如jQuery，可以使用externals予以指定，webpack不会将这些进行打包，改用外部引入CDN
 
 ### 避免类库引入但不使用
 
