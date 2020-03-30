@@ -31,7 +31,8 @@ mac下安装Mysql5.7会产生一个默认密码，既不是root也不是空，�
 ```
 
 mysql 指令
-```
+
+```shell
 sudo /usr/local/mysql/support-files/mysql.server start
 sudo /usr/local/mysql/support-files/mysql.server stop
 sudo /usr/local/mysql/support-files/mysql.server restart
