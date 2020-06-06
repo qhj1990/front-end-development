@@ -1,13 +1,5 @@
 # NPM和Yarn
 
-<details>
-<summary>目录</summary>
-
-* [`NPM`](##NPM)
-* [`Yarn`](##Yarn)
-
-</details>
-
 ## NPM
 
 ### 常用网站
@@ -142,19 +134,19 @@ npm info [package name]
 
 ### 安装Yarn
 
-```
+```shell
 brew install yarn
 ```
 
 ### 升级Yarn
 
-```
+```shell
 brew upgrade yarn
 ```
 
 ### Yarn 版本
 
-```
+```shell
 yarn --version
 ```
 

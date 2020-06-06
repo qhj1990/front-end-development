@@ -72,5 +72,3 @@ prod
 swagger 文档生成器
 
 前端mock
-
-

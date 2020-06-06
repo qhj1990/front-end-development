@@ -14,19 +14,19 @@ Sails是在Node.js Express 和Socket.io的基础上构建。Node.js MVC框架
 
 全局安装，mac系统需要在前面加sudo
 
-```
+```shell
 npm install sails -g
 ```
 
 ### 创建app
 
-```
+```shell
 sails new sails-project
 ```
 
 会出现以下的选择
 
-```
+```shell
 Choose a template for your new Sails app:
  1. Web App  ·  Extensible project with auth, login, & password recovery
  2. Empty    ·  An empty Sails app, yours to configure

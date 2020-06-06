@@ -115,7 +115,7 @@ define(["./cart", "./inventory"], function(cart, inventory){
 
 ### 3.CMD
 
-依赖后置。
+依赖后置
 
 #### sea.js
 

@@ -1,16 +1,20 @@
+# Nginx
+
+Nginx (engine x) 是一个高性能的HTTP和反向代理web服务器，同时也提供了IMAP/POP3/SMTP服务。
+
 ## Nginx 优点
 
-- 支持高并发
-- 内存消耗少
-- 免费使用可以商业化
-- 配置文件简单
-- 反向代理，负载均衡
+* 支持高并发
+* 内存消耗少
+* 免费使用可以商业化
+* 配置文件简单
+* 反向代理，负载均衡
 
-## Nginx 版本
+## Nginx版本
 
-- Mainline version： 开发版本
-- Stable version： 稳定版本
-- legacy version： 历史版本
+* Mainline version： 开发版本
+* Stable version： 稳定版本
+* legacy version： 历史版本
 
 ## Nginx安装
 
@@ -150,19 +154,19 @@ netstat -tlnp
 
 配置 /nginx/conf.d/default.conf
 
-- 多错误指向一个页面
+* 多错误指向一个页面
 
 ```
 error_page   500 502 503 504  /50x.html;
 ```
 
-- 单独为错误
+* 单独为错误
 
 ```
 error_page 404  /404_error.html;
 ```
 
-- 错误码换成一个地址
+* 错误码换成一个地址
 
 ```
 error_page  404 http://www.baidu.com
@@ -210,7 +214,7 @@ location =/admin{
 
 ## 设置虚拟主机
 
-- 基于端口号配置虚拟主机
+* 基于端口号配置虚拟主机
 
 ```
 server{
@@ -221,7 +225,7 @@ server{
 }
 ```
 
-- 基于IP的虚拟主机
+* 基于IP的虚拟主机
 
 ```
 server{
@@ -252,13 +256,13 @@ server{
 
 ### 其它反向代理指令
 
-- proxy_set_header :在将客户端请求发送给后端服务器之前，更改来自客户端的请求头信息。
+* proxy_set_header :在将客户端请求发送给后端服务器之前，更改来自客户端的请求头信息。
 
-- proxy_connect_timeout:配置Nginx与后端代理服务器尝试建立连接的超时时间。
+* proxy_connect_timeout:配置Nginx与后端代理服务器尝试建立连接的超时时间。
 
-- proxy_read_timeout : 配置Nginx向后端服务器组发出read请求后，等待相应的超时时间。
-- proxy_send_timeout：配置Nginx向后端服务器组发出write请求后，等待相应的超时时间。
-- proxy_redirect :用于修改后端服务器返回的响应头中的Location和Refresh。
+* proxy_read_timeout : 配置Nginx向后端服务器组发出read请求后，等待相应的超时时间。
+* proxy_send_timeout：配置Nginx向后端服务器组发出write请求后，等待相应的超时时间。
+* proxy_redirect :用于修改后端服务器返回的响应头中的Location和Refresh。
 
 ## 适配PC或移动设备
 
@@ -291,14 +295,14 @@ server{
 
 Nginx提供了专门的gzip模块，并且模块中的指令非常丰富。
 
-- gzip : 该指令用于开启或 关闭gzip模块。
-- gzip_buffers : 设置系统获取几个单位的缓存用于存储gzip的压缩结果数据流。
-- gzip_comp_level : gzip压缩比，压缩级别是1-9，1的压缩级别最低，9的压缩级别最高。压缩级别越高压缩率越大，压缩时间越长。
-- gzip_disable : 可以通过该指令对一些特定的User-Agent不使用压缩功能。
-- gzip_min_length:设置允许压缩的页面最小字节数，页面字节数从相应消息头的Content-length中进行获取。
-- gzip_http_version：识别HTTP协议版本，其值可以是1.1.或1.0.
-- gzip_proxied : 用于设置启用或禁用从代理服务器上收到相应内容gzip压缩。
-- gzip_vary : 用于在响应消息头中添加Vary：Accept-Encoding,使代理服务器根据请求头中的Accept-Encoding识别是否启用gzip压缩。
+* gzip : 该指令用于开启或 关闭gzip模块。
+* gzip_buffers : 设置系统获取几个单位的缓存用于存储gzip的压缩结果数据流。
+* gzip_comp_level : gzip压缩比，压缩级别是1-9，1的压缩级别最低，9的压缩级别最高。压缩级别越高压缩率越大，压缩时间越长。
+* gzip_disable : 可以通过该指令对一些特定的User-Agent不使用压缩功能。
+* gzip_min_length:设置允许压缩的页面最小字节数，页面字节数从相应消息头的Content-length中进行获取。
+* gzip_http_version：识别HTTP协议版本，其值可以是1.1.或1.0.
+* gzip_proxied : 用于设置启用或禁用从代理服务器上收到相应内容gzip压缩。
+* gzip_vary : 用于在响应消息头中添加Vary：Accept-Encoding,使代理服务器根据请求头中的Accept-Encoding识别是否启用gzip压缩。
 
 ```
 http {

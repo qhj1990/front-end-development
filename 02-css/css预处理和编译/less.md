@@ -1,12 +1,20 @@
 # Less
 
-使用括号
+css预处理，扩展css语言，使css更加容易维护和扩展。可用在浏览器和Node
 
 ## less资源
 
 * [less官网](http://lesscss.org/)
 * [Less中文网](http://lesscss.cn/)
 * [bootcss翻译](https://less.bootcss.com/)
+
+## 安装使用
+
+```shell
+npm install -g less
+lessc styles.less
+lessc styles.less styles.css
+```
 
 ## 变量 Variables
 
@@ -19,6 +27,18 @@
 ## 嵌套 Nesting
 
 允许嵌套
+
+```less
+#header {
+  color: black;
+  .navigation {
+    font-size: 12px;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+```
 
 ## 运算 Operations
 
@@ -62,14 +82,14 @@
 
 ## 注释
 
-    1. css原生注释，会被编译到css文件中
+1. css原生注释，会被编译到css文件中
 
-    ```
-    /* css原生注释 */
-    ```
+```css
+/* css原生注释 */
+```
 
-    1. less提供的注释，不会被编译在css文件中
+2. less提供的注释，不会被编译在css文件中
 
-    ```
-    // less注释
-    ```
+```less
+// less注释
+```

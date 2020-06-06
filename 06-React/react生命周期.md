@@ -2,7 +2,7 @@
 
 React16后生命周期发生改变
 
-## 新生命周期
+## 命周期
 
 ### Mounting(挂载阶段)
 
@@ -52,64 +52,6 @@ React16后生命周期发生改变
 #### componentWillUnmount()
 
 组件卸载销毁之前调用，清除定时器，取消网络请求，清除订阅
-
-## 旧生命周期
-
-### Mounting（加载阶段：涉及6个钩子函数）
-
-#### 1. constructor()
-
-加载的时候调用一次，可以初始化state
-
-#### 2. getDefaultProps()
-
-设置默认的props，也可以用dufaultProps设置组件的默认属性。
-
-#### 3. getInitialState()
-
-初始化state，可以直接在constructor中定义this.state
-
-#### 4. componentWillMount()
-
-组件加载时只调用，以后组件更新不调用，整个生命周期只调用一次，此时可以修改state
-
-#### 5. render()
-
-react最重要的步骤，创建虚拟dom，进行diff算法，更新dom树都在此进行
-
-#### 6. componentDidMount()
-
-组件渲染之后调用，只调用一次
-
-### Updating（更新阶段：涉及5个钩子函数)
-
-#### 1. componentWillReceivePorps(nextProps)
-
-组件加载时不调用，组件接受新的props时调用
-
-#### 2. shouldComponentUpdate(nextProps, nextState)
-
-组件接收到新的props或者state时调用，return true就会更新dom（使用diff算法更新），return false能阻止更新（不调用render）
-
-#### 3. componentWillUpdata(nextProps, nextState)
-
-组件加载时不调用，只有在组件将要更新时才调用，此时可以修改state
-render()
-
-react最重要的步骤，创建虚拟dom，进行diff算法，更新dom树都在此进行
-
-#### 4. componentDidUpdate()
-
-组件加载时不调用，组件更新完成后调用
-
-### Unmounting（卸载阶段：涉及1个钩子函数）
-
-componentWillUnmount()
-
-组件渲染之后调用，只调用一次
-
-
-可以释放资源, 比如清除定时器
 
 ### 错误处理
 

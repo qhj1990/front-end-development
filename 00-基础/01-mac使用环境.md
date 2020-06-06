@@ -1,15 +1,5 @@
 # mac使用环境
 
-<details>
-
-<summary>目录</summary>
-
-* [`mac备份恢复`](##mac备份恢复)
-* [`通用设置`](##通用设置)
-* [`软件推荐`](##软件推荐)
-
-</details>
-
 ## mac备份恢复
 
 为防止意外，需要对电脑进行定期的备份。
@@ -78,9 +68,7 @@ sudo spctl --master-disable
 ### 办公软件，笔记, 思维导图、团队协作
 
 * Microsoft office for Mac 2019
-* pages文稿
-* Numbers表格
-* keyNode讲演
+* pages文稿、Numbers表格、keyNode讲演
 * [WPS Office](https://www.wps.cn/product/wpsmac/)
 * [腾讯文档](https://docs.qq.com/download.html) 在线文档
 * [有道云笔记](http://note.youdao.com/) 写笔记，markdown

@@ -4,7 +4,7 @@
 
 ## 双向绑定
 
-model更新会处罚view的更新，view更新会model
+model更新会触发view的更新，view更新会model
 
 双向绑定时语法糖
 
@@ -22,17 +22,17 @@ Vue 无法检测到对象属性的添加或删除。由于 Vue 会在初始化�
 
 ## vue中key的作用
 
-## v-show v-if
+## v-show和v-if
 
-v-show 及时是false，还是会渲染，DOM也会存在，只是display:none
+`v-show` 及时是false，还是会渲染，DOM也会存在，只是display:none
 
-v-if 有更高的切换开销，而 v-show 有更高的初始渲染开销。
+`v-if` 有更高的切换开销，而`v-show`有更高的初始渲染开销。
 
-因此，如果需要非常频繁地切换，则使用 v-show 较好；如果在运行时条件很少改变，则使用 v-if 较好。
+因此，如果需要非常频繁地切换，则使用`v-show`较好；如果在运行时条件很少改变，则使用`v-if`较好。
 
 ## v-model
 
-v-model 指令在表单 <input>、<textarea> 及 <select> 元素上创建双向数据绑
+v-model 指令在表单 `<input>`、`<textarea>` 及 `<select>` 元素上创建双向数据绑
 
 ## 逻辑复用
 

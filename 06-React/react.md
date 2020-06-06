@@ -37,7 +37,7 @@ props类型检测，大型应用建议用typescript，代码提示
 
 项目代码进行分割，React.lazy(() => import()); 动态导入，只有被使用的时候才会加载。
 
-```
+```js
 <Suspense fallback={<div>Loading...</div>}>
 </Suspense>
 ```

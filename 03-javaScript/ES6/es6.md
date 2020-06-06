@@ -13,7 +13,7 @@
 
 ## let const声明
 
-var和function命令声明的全局变量，时顶层对象（window, global）的属性,let和const class声明的全局变量不属于顶层对象的属性
+var和function命令声明的全局变量，顶层对象（window, global）的属性,let和const class声明的全局变量不属于顶层对象的属性
 
 ### let
 
@@ -105,14 +105,6 @@ WeakSet的成员只能时对象，不能为其他类型的值
 ## Proxy
 
 代理
-
-## promise
-
-Promise 是异步编程的一种解决方案
-
-### promise三种状态
-
-pending、fulfilled、reject，状态改变了就不会再变化，就resolved定型了
 
 ## async/await
 

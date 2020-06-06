@@ -1,4 +1,4 @@
-# creates.js
+# create.js
 
 CreateJS是基于HTML5开发的一套模块化的库和工具。基于这些库，可以非常快捷地开发出基于HTML5的游戏、动画和交互应用。
 
